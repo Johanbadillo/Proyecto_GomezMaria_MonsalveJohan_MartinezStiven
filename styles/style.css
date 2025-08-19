@@ -32,3 +32,20 @@ margin: 0%;
 
     
 }
+
+.logo img  {
+    position: relative;
+    width: 30vw;
+    animation-name: aparecerLogo ;
+    animation-duration: 5s;    
+}
+
+@keyframes aparecerLogo{
+ 0% {
+    opacity: 0;
+ }
+ 100%{
+    opacity: 1;
+ }
+
+}
