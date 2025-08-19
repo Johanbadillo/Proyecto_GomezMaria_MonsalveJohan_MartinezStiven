@@ -1,0 +1,43 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(199, 199, 199);
+}
+
+.container1{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.barra{
+    position: relative;
+    width: 100vw;
+    background-color: rgb(9, 177, 228);
+    height: 10vh;
+}
+
+.titulo{
+    position: relative;
+    justify-items: center;
+}
+
+.container2{
+    display: flex;
+    z-index: 1;
+    position: relative;
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+    
+}

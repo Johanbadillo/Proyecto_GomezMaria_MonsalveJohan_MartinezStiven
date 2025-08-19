@@ -37,7 +37,7 @@ margin: 0%;
     position: relative;
     width: 30vw;
     animation-name: aparecerLogo ;
-    animation-duration: 5s;    
+    animation-duration: 10s;    
 }
 
 @keyframes aparecerLogo{
