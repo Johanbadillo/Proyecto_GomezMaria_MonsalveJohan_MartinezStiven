@@ -18,11 +18,17 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 gap: 10px;
+width: 55vw;
 
 }
 
-.titulo{
-    display: flex;
-    position: relative;
+.Titulo h1{
+  
+position: relative;
+font-size: 60px;
+font-weight: bold;
+text-align: center;
+margin: 0%;
+
     
 }
