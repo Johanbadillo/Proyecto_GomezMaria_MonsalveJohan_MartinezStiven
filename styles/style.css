@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(9, 177, 228);
+    justify-items: center;
+   
+}
+
+.container1{
+display: flex;
+position: relative;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+gap: 10px;
+
+}
+
+.titulo{
+    display: flex;
+    position: relative;
+    
+}
