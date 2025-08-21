@@ -1,3 +1,13 @@
+@font-face {
+    font-family: tittles;
+    src: url(./../Fonts/carter-one/CarterOne.ttf);
+}
+
+@font-face {
+    font-family: numeros;
+    src: url(./../Fonts/digital-7/digital-7.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -68,6 +78,8 @@ nav a {
 
 h1 {
     font-size: 2.5rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .estadisticasPrincipales .cuadros {
@@ -79,8 +91,39 @@ h1 {
 .estadisticasPrincipales .cuadros .card {
     background: white;
     padding: 20px;
-    text-align: center;
+    text-align: left;
     border-radius: 8px;
+    height: 12vi;
+    font-family: tittles;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.tituloCurso{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.tituloCurso a{
+    display: block;
+    background: #60C1F2;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.estadisticasPrincipales .cuadros .card p{
+    font-family: numeros;
+    font-size: 5rem;
 }
 
 .divCursos .cuadrosCursos {
@@ -90,10 +133,55 @@ h1 {
 }
 
 .divCursos .cardCursos {
-    background: white;
-    padding: 10px;
-    border-radius: 8px;
+    background: url(./../media/images.jpeg)0% 0% no-repeat;
+    background-size: cover;
+    border-radius: 16px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+.divCursos .cardCursos .cuadrito{
+    height: 65%;
+    background: white;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.divCursos .cardCursos .cuadrito h4{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.divCursos .cardCursos .cuadrito p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin: 2%;
+}
+
+.divCursos .cardCursos .cuadrito .progreso{
+    color: #239400;
+}
+
+.divCursos .cardCursos .cuadrito a{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+hr{
+    width: 100%;
 }
 
 .cardCursos img {
@@ -103,8 +191,8 @@ h1 {
 
 .cardCursos a {
     display: block;
-    background: #54A8D2;
-    color: white;
+    background: #60C1F2;
+    color: #000000;
     padding: 10px;
     text-decoration: none;
     border-radius: 4px;
