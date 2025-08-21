@@ -1,0 +1,110 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(199, 199, 199);
+    display: flex;
+    position: relative;
+    
+}
+
+.container1{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.barra{
+    position: relative;
+    width: 100vw;
+    background-color: rgb(9, 177, 228);
+    height: 10vh;
+}
+
+.titulo{
+    position: relative;
+    justify-items: center;
+    top: 10px;
+}
+
+.container2{
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    width: 35vw;
+    height: 73vh;
+    flex-direction: column;
+    align-items: center;
+    top: 120px;
+    border-radius: 5%;
+    box-shadow: 0px 4px 20px 5px ;
+    
+}
+
+.titulo2{
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.formularioUsuario label {
+    position: relative;
+    top: 70px;
+    right: 70px;
+    font-size: 20px;
+}
+.formularioUsuario input {
+    position: relative;
+    top: 100px;
+    width: 120%;
+    right: 70px;
+    height: 30px;
+}
+.formularioContraseña label{
+    position: relative;
+    top: 130px;
+    right: 60px;
+    font-size: 20px;
+}
+
+.formularioContraseña input{
+    position: relative;
+    top: 160px;
+    width: 108%;
+    right: 55px;
+    height: 30px;
+}
+
+.tipoUsuarios label{
+    position: relative;
+    top: 180px;
+    right: 75px;
+    font-size: 20px;
+}
+
+.tipoUsuarios select{
+    position: relative;
+    top: 200px;
+    right: 70px;
+    width: 122%;
+}
+
+.boton button{
+    z-index: 1;
+    position: relative;
+    background-color: rgb(9, 177, 228);
+    border-color: rgb(9, 177, 228);
+    top: 470px;
+    width: 10vw;
+    height: 5vh;
+
+}
