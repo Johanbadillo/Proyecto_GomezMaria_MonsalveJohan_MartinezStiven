@@ -1,15 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #EDEDED;
     animation: aparecer2 0.8s forwards;
 }
 
-header{
+header {
     background-color: #54A8D2;
     display: flex;
     justify-content: space-between;
@@ -18,28 +18,21 @@ header{
     padding: 5px 10%;
 }
 
-.logo{
+.logo {
     height: 75px;
     width: auto;
     cursor: pointer;
     transition: all 0.3s;
 }
 
-.profile{
+.profile {
     height: 60px;
     width: auto;
     transition: all 0.3s;
-    margin: 10px;
+    margin: 15px;
 }
 
-.arrow{
-    height: 20px;
-    width: auto;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-header a{
+header a {
     font-size: 700;
     color: white;
     text-decoration: none;
@@ -48,7 +41,7 @@ header a{
     transition: all 0.2s;
 }
 
-.perfil{
+.perfil {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -58,13 +51,31 @@ header a{
     align-items: center;
 }
 
-nav{
+nav {
     text-align: justify;
     display: flex;
     flex-wrap: nowrap;
 }
 
-nav a{
+nav a {
     color: black;
     font-size: 2rem;
+}
+
+.contenido {
+    max-width: 80vw;
+    margin: 2vh auto;
+    padding: 0 2vw;
+}
+
+
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 2vh;
 }
