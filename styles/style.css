@@ -1,51 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(9, 177, 228);
     justify-items: center;
-   
-}
-
-.container1{
-display: flex;
-position: relative;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-height: 100vh;
-gap: 10px;
-width: 55vw;
 
 }
 
-.Titulo h1{
-  
-position: relative;
-font-size: 60px;
-font-weight: bold;
-text-align: center;
-margin: 0%;
-
-    
-}
-
-.logo img  {
+.container1 {
+    display: flex;
     position: relative;
-    width: 30vw;
-    animation-name: aparecerLogo ;
-    animation-duration: 10s;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    width: 55vw;
+
 }
 
-@keyframes aparecerLogo{
- 0% {
-    opacity: 0;
- }
- 100%{
-    opacity: 1;
- }
+.Titulo h1 {
+    position: relative;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    margin: 0%;
+
+}
+
+.logo img {
+    position: relative;
+    align-items: center;
+    width: 35vw;
+    background-color: rgba(255, 0, 0, 0);
+    filter: drop-shadow( 0 10px 50px rgb(195, 212, 242));
+    animation-name: aparecerLogo;
+    animation-duration: 10s;
+    margin-left: -3vw;
+}
+
+@keyframes aparecerLogo {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 
 }
