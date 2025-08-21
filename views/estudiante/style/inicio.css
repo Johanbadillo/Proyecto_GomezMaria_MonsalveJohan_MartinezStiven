@@ -1,5 +1,70 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #EDEDED;
+    animation: aparecer2 0.8s forwards;
+}
+
+header{
+    background-color: #54A8D2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+}
+
+.logo{
+    height: 75px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.profile{
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+    margin: 10px;
+}
+
+.arrow{
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+header a{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 40px;
+    transition: all 0.2s;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav a{
+    color: black;
+    font-size: 2rem;
 }
