@@ -198,6 +198,16 @@ hr{
     border-radius: 4px;
 }
 
+.Notificaciones h1{
+    margin: 0;
+    margin-top: 50px;
+}
+
+.Notificaciones h4{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
 .Notificaciones .Mensajes {
     display: flex;
     flex-direction: column;
@@ -206,14 +216,26 @@ hr{
 .Notificaciones .msg {
     display: flex;
     justify-content: space-between;
-    background: white;
-    padding: 10px;
+    background: #D9D9D9;
+    padding: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
 }
 
 .Notificaciones .tmp {
     color: gray;
+}
+
+.Notificaciones a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
 }
 
 footer {
