@@ -108,6 +108,7 @@ nav a{
     height: 100vh;
     flex-direction: row;
     text-align: center;
+   
 }
 
 .cuadro1{
@@ -134,7 +135,7 @@ nav a{
 }
 .porcentaje{
     position: relative;
-    left: 3rem;
+    left: 4rem;
 }
 
 @keyframes rellenar {
@@ -150,6 +151,231 @@ nav a{
     height: 5vh;
     background-color: #54A8D2;
     border-color:  #54A8D2;
-    top: 20rem;
-    left: 1rem;
+    top: 18rem;
+    left: 2rem;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.boton2 button{
+    position: relative;
+    width:5vw;
+    height: 5vh;
+    background-color: #54A8D2;
+    border-color:  #54A8D2;
+    top: 26rem;
+    right: 10rem;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.porcentaje1{
+    position: relative;
+    left: -1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    bottom: 6rem;
+
+}
+
+
+
+
+
+    
+.cuadro2 {
+    position: absolute; 
+    background-color: rgb(255, 255, 255);
+    left: 50rem; 
+}
+.container3{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 5vh; 
+    bottom: 137vh;
+}
+
+.cuadro2 {
+    position: absolute; 
+    background-color: rgb(255, 255, 255);
+    left: 50rem; 
+    width: 10vw;
+    height: 30vh;
+    border-radius: 10%;
+}
+
+
+
+
+.circulo2 {
+    display: flex;
+    position: relative;
+    fill: none;
+    stroke: rgb(0, 255, 42);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 124;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+    
+}
+.porcentajeC2{
+    position: relative;
+    left: 3rem;
+    bottom: 2vh;
+}
+
+@keyframes rellenar {
+    to {
+        stroke-dashoffset: 100;
+        /* 440 - (440 * 0.8) para 80% */
+    }
+}
+
+.boton1C button{
+    position: relative;
+    width:5vw;
+    height: 5vh;
+    background-color: #54A8D2;
+    border-color:  #54A8D2;
+    top: 1vh;
+    right: 51rem;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boton2C button{
+    position: relative;
+    width:5vw;
+    height: 5vh;
+    background-color: #54A8D2;
+    border-color:  #54A8D2;
+    top: 9rem;
+    right: 63rem;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.porcentajeN2{
+    position: relative;
+    right: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    bottom: 6.5vh;
+
+}
+
+
+
+
+.container4{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 5vh; 
+    bottom: 237vh;
+    right: 35rem;
+}
+
+.tituloCuadro3{
+    position: relative;
+    font-weight: bold;
+    top: 1rem;
+}
+
+
+.cuadro3{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    left: 20rem;
+    width: 10vw;
+    height: 30vh;
+    border-radius: 10%;
+    
+    
+}
+.circulo3 {
+    display: flex;
+    position: relative;
+    fill: none;
+    stroke: rgb(96, 5, 241);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 124;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+    
+}
+.porcentajeC3{
+    position: relative;
+    left: 4rem;
+}
+
+@keyframes rellenar {
+    to {
+        stroke-dashoffset: 100;
+        /* 440 - (440 * 0.8) para 80% */
+    }
+}
+
+.boton1E button{
+    position: relative;
+    width:5vw;
+    height: 5vh;
+    background-color: #54A8D2;
+    border-color:  #54A8D2;
+    top: 1rem;
+    left: 2rem;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boton2E button{
+    position: relative;
+    width:5vw;
+    height: 5vh;
+    background-color: #54A8D2;
+    border-color:  #54A8D2;
+    top: 10rem;
+    right: 10rem;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.porcentajeN3{
+    position: relative;
+    left: -1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    bottom: 6rem;
+
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 2vh;
 }
