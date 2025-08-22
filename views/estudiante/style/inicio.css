@@ -105,14 +105,14 @@ h1 {
     flex-wrap: nowrap;
 }
 
-.tituloCurso{
+.tituloCurso {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
 }
 
-.tituloCurso a{
+.tituloCurso a {
     display: block;
     background: #60C1F2;
     color: #000000;
@@ -122,7 +122,7 @@ h1 {
     font-size: 1.2rem;
 }
 
-.estadisticasPrincipales .cuadros .card p{
+.estadisticasPrincipales .cuadros .card p {
     font-family: numeros;
     font-size: 5rem;
 }
@@ -146,7 +146,7 @@ h1 {
     height: 350px;
 }
 
-.divCursos .cardCursos .cuadrito{
+.divCursos .cardCursos .cuadrito {
     height: 65%;
     background: white;
     width: 100%;
@@ -160,28 +160,28 @@ h1 {
     justify-content: center;
 }
 
-.divCursos .cardCursos .cuadrito h4{
+.divCursos .cardCursos .cuadrito h4 {
     font-size: 1.5rem;
     font-family: sans-serif;
 }
 
-.divCursos .cardCursos .cuadrito p{
+.divCursos .cardCursos .cuadrito p {
     font-size: 1.2rem;
     font-family: sans-serif;
     margin: 2%;
 }
 
-.divCursos .cardCursos .cuadrito .progreso{
+.divCursos .cardCursos .cuadrito .progreso {
     color: #239400;
 }
 
-.divCursos .cardCursos .cuadrito a{
+.divCursos .cardCursos .cuadrito a {
     margin-right: auto;
     margin-left: auto;
     margin-top: 10%;
 }
 
-hr{
+hr {
     width: 100%;
 }
 
@@ -199,12 +199,12 @@ hr{
     border-radius: 4px;
 }
 
-.Notificaciones h1{
+.Notificaciones h1 {
     margin: 0;
     margin-top: 50px;
 }
 
-.Notificaciones h4{
+.Notificaciones h4 {
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -228,7 +228,7 @@ hr{
     color: gray;
 }
 
-.Notificaciones a{
+.Notificaciones a {
     text-decoration: none;
     font-size: 2rem;
     color: #000000;
@@ -237,6 +237,110 @@ hr{
     justify-content: center;
     align-content: center;
 
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modalContenido {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid #54A8D2;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cerrarModal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.modalContenido h2 {
+    margin-bottom: 20px;
+    font-family: tittles;
+}
+
+#textoMensaje {
+    width: 90%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#btnEnviarMensaje {
+    background-color: #60C1F2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#btnEnviarMensaje:hover {
+    background-color: #54A8D2;
+}
+
+.modalExito {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modalContenidoExito {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid #54A8D2;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.modalContenidoExito h2 {
+    margin-bottom: 20px;
+    font-family: tittles;
+    color: #000;
+}
+
+#btnRegresar {
+    background-color: #54A8D2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#btnRegresar:hover {
+    background-color: #60C1F2;
 }
 
 footer {
