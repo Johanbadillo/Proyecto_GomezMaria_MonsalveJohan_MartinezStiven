@@ -1,54 +1,138 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.login h1 {
+    font-size: 4vw;
 }
 
 body {
-    background-color: rgb(9, 177, 228);
-    justify-items: center;
-
+    margin: 0;
+    background-color: #EDEDED;
 }
 
-.container1 {
-    display: flex;
+
+.barra{
     position: relative;
+    width: 100vw;
+    background-color: rgb(9, 177, 228);
+    height: 12vw;
+}
+
+.titulo{
+    position: absolute;
+    justify-items: center;
+    top: 50vw;
+}
+.login {
+    background-color: white;
     flex-direction: column;
+    position: absolute;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    gap: 10px;
-    width: 55vw;
-
-}
-
-.Titulo h1 {
-    position: relative;
-    font-size: 4vw;
-    font-weight: bold;
     text-align: center;
-    margin: 0%;
-
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5vw;
+    width: 40%;
+    height: 30%;
+    padding: 2rem 2rem 2rem 2rem;
+    animation: login 3.5s 1;
+    opacity: 1;
+    overflow: hidden;
 }
 
-.logo img {
-    position: relative;
-    align-items: center;
+
+.login input {
+    border-radius: 5vw;
+    width: 40%;
+    height: 10%;
+    border: solid 1px #ccc;
+    font-size: 2vw;
+    padding-left: 0.7rem;
+}
+
+.formulario {
     width: 35vw;
-    background-color: rgba(255, 0, 0, 0);
-    filter: drop-shadow( 0 10px 50px rgb(195, 212, 242));
-    animation-name: aparecerLogo;
-    animation-duration: 10s;
-    margin-left: -3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
 }
 
-@keyframes aparecerLogo {
+label {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+    font-size: 3vw;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color:rgb(9, 177, 228);
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+    border-radius: 1.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgb(10, 133, 170);
+}
+.lmsT {
+    position: absolute;
+    text-align: center;
+    top: -10vw;
+}
+.logoP{
+    width: 40vw;
+}
+.logo {
+    background-color:rgb(10, 133, 170) ;
+    padding: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    animation: logo 2s 1;
+}
+
+@keyframes logo {
     0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes login {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
         opacity: 0;
     }
 
     100% {
         opacity: 1;
     }
-
 }
+
+

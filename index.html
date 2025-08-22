@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fondo de incio</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    
-<div class="container1">
-
-    <div class="Titulo"> 
-        <h1>LMS PORTAL</h1>
-    </div>
-
     <div class="logo">
-        <img src="./Media/logoM.png" alt="">
+        <h1 class="lmsT">LMS PORTAL</h1>
+        <img class="logoP" src="./Media/logoM.png" alt="logo">
     </div>
-
-
-</div>
+    <div class="login">
+        <div class="titulo">
+            <h1>LMS PORTAL</h1>
+        </div>
+        <div class="inicio">
+            <h1>INGRESAR</h1>
+            <form class="formulario" action="">
+                <label for="user">Nombre</label>
+                <input id="user" type="text">
+                <label for="password">Contraseña</label>
+                <input id="password" type="password">
+                <label for="Tipo de Usuario">Tipo de Usuario:</label>
+                <select name="Tipo de Usuario" id="Tipo de Usuario" required>
+                    <option value="Docente">Docente</option>
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Administrador">Administrador</option>
+                </select>
+            </form>
+            <a href="./views/estudiante/inicio.html">Ingresar</a>
+        </div>
+    </div>
 
 </body>
 <script src="./scripts/script.js"></script>
+
 </html>
