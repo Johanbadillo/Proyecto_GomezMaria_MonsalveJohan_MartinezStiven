@@ -70,6 +70,10 @@ nav a {
     font-size: 1.2rem;
 }
 
+nav a:hover{
+    transform: scale(1.2);
+}
+
 .contenido {
     max-width: 80vw;
     margin: 2vh auto;
