@@ -74,17 +74,163 @@ nav a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50vw;
-    height: 80vh;
+    width: 40vw;
+    height: 100vh;
     background-color: rgb(165, 164, 164);
     margin: auto; 
 }
 
 .cuadroColorSuperior{
     width: 100%;
-    height: 30%;
+    height: 25%;
     background-color: #073b53;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fotoPerfil{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 350px;
+}
+
+.nombre{
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    margin-top: 170px;
+}
+
+.rol p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.linea1{
+    width: 100%;
+    height: 2px;
+    border: rgb(0, 0, 0) solid 1px;
+    margin-top: 20px;
+}
+
+ .cuadro1{
+    width: 90%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+ }
+
+.titulo1 h2{
+    position: relative;
+    left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+
+.nombrePerfil{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    left: 2rem;
+}
+
+.nombrePerfil input{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.correoPerfil{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    left: 30rem;
+    bottom: 5vh;
+}
+
+.correoPerfil input{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.telefonoPerfil{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    left: 60rem;
+    bottom: 10vh;
+}
+
+.telefonoPerfil input{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.Pais{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    left: 2rem;
+    bottom: 7vh;
+}
+
+.Pais input{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 9vh;
 }
