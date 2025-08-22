@@ -93,6 +93,7 @@ h1 {
     padding: 20px;
     text-align: left;
     border-radius: 8px;
+    max-height: 160px;
     height: 12vi;
     font-family: tittles;
     font-size: 1.6rem;
