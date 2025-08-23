@@ -1,109 +1,169 @@
-.login h1 {
-    font-size: 4vw;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    margin: 0;
+    animation: fondo 2s 1;
     background-color: #EDEDED;
-}
-
-
-.barra{
-    position: relative;
-    width: 100vw;
-    background-color: rgb(9, 177, 228);
-    height: 12vw;
-}
-
-.titulo{
-    position: absolute;
-    justify-items: center;
-    top: 50vw;
-}
-.login {
-    background-color: white;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    animation: login 3.5s 1;
+    text-align: center;
+    background-color: #54A8D2;
+    padding: 1vw 0;
+    margin-bottom: 10px;
+}
+
+.titulo {
+    font-weight: bolder;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    opacity: 0;
+    animation: logo 2s 1;
     position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.lmsT {
+    font-size: 3vw;
+    margin-bottom: 1rem;
+}
+
+.logoP {
+    width: 25vw;
+    height: auto;
+}
+
+.login {
+    animation: login 3.5s 1;
+    opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 5vw;
-    width: 40%;
-    height: 30%;
-    padding: 2rem 2rem 2rem 2rem;
-    animation: login 3.5s 1;
-    opacity: 1;
-    overflow: hidden;
+    flex: 1;
+    padding: 2vw;
 }
 
+.inicio {
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 50vw;
+    padding: 2vw;
+}
 
-.login input {
-    border-radius: 5vw;
-    width: 40%;
-    height: 10%;
-    border: solid 1px #ccc;
-    font-size: 2vw;
-    padding-left: 0.7rem;
+.topfor {
+    margin-top: 1vw;
+}
+
+.ingT {
+    text-align: center;
+    font-size: 1.8vw;
+    margin-bottom: 1.5rem;
+    color: #000000;
+}
+
+.todoF {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
 }
 
 .formulario {
-    width: 35vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: left;
+    gap: 1.2vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 label {
-    display: block;
     text-align: left;
+    font-weight: bold;
+    color: #000000;
+    font-size: 0.9vw;
+}
+
+input{
+    padding: 1vw;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1vw;
     width: 100%;
-    margin-left: 0;
-    margin-top: 1rem;
-    margin-bottom: 0.2rem;
-    font-size: 3vw;
-    color: #222;
+    transition: border-color 0.3s ease;
+}
+select {
+    padding: 1vw;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1vw;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+input:focus{
+    outline: none;
+    border-color: #54A8D2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+select:focus {
+    outline: none;
+    border-color: #54A8D2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 a {
+    background-color: #54A8D2;
+    color: rgb(0, 0, 0);
+    padding: 1vw 2vw 1vw 2vw;
     text-decoration: none;
-    color: white;
-    background-color:rgb(9, 177, 228);
-    font-size: 1.2rem;
-    padding: 0.5rem 2rem;
-    border-radius: 1.2rem;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
-    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vw;
+    transition: background-color 0.3s ease;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    text-align: center;
 }
 
 a:hover {
-    background-color: rgb(10, 133, 170);
+    background-color: #3a7ca8;
 }
-.lmsT {
-    position: absolute;
-    text-align: center;
-    top: -10vw;
-}
-.logoP{
-    width: 40vw;
-}
-.logo {
-    background-color:rgb(10, 133, 170) ;
-    padding: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    animation: logo 2s 1;
+
+@keyframes fondo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        background-color: #54A8D2;
+    }
+
+    100% {
+        opacity: 1;
+        background-color: #EDEDED;
+    }
 }
 
 @keyframes logo {
@@ -120,7 +180,6 @@ a:hover {
     }
 }
 
-
 @keyframes login {
     0% {
         opacity: 0;
@@ -134,5 +193,3 @@ a:hover {
         opacity: 1;
     }
 }
-
-
