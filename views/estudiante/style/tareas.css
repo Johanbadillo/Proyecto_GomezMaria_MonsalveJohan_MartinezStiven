@@ -3,3 +3,149 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.mitad {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.titulo1 h1 {
+    color: #00bcd4;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.completa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.completa p {
+    margin: 0;
+}
+
+.s {
+    color: #333;
+    font-size: 14px;
+}
+
+.botonesTareas {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.monitor {
+    width: 24px;
+    height: 24px;
+}
+
+.onButton {
+    background: #e0e0e0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.onButton:hover {
+    color: rgb(0, 0, 0);
+}
+
+.tareas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tarea-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /*border-left: 4px solid #ffa726; -colot naranja */
+    border-left: 4px solid #ff2626;
+}
+
+.tarea-header {
+    display: flex;
+    justify-content: between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.fechaTarea {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.estadoTarea {
+    color: #ffa726;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.nombreTarea {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.descriTarea {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.entregaTarea {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.entregaTarea a {
+    background: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.entregaTarea a:hover {
+    background: #0097a7;
+    transform: translateY(-2px);
+}
+
+.fecha-entrega {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #666;
+    font-size: 12px;
+}
+
+.tarea-card {
+    position: relative;
+}
