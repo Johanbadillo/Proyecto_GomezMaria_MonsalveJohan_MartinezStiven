@@ -74,11 +74,17 @@ header {
     margin-top: 1vw;
 }
 
+.prt{
+    text-align: center;
+    font-size: 2vw;
+}
+
 .ingT {
     text-align: center;
     font-size: 1.8vw;
     margin-bottom: 1.5rem;
     color: #000000;
+    font-weight: 500;
 }
 
 .todoF {
@@ -99,7 +105,7 @@ label {
     text-align: left;
     font-weight: bold;
     color: #000000;
-    font-size: 0.9vw;
+    font-size: 1.1vw;
 }
 
 input{

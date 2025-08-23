@@ -1,13 +1,13 @@
-const logoP = document.getElementById('logoP');
+const logo = document.getElementById('logo');
 
 function ocultarImagen(elemento) {
     setTimeout(() => {
         if (elemento) {
             elemento.style.display = 'none';
         }
-    }, 3000);
+    }, 2000);
 }
 
 window.onload = () => {
-    ocultarImagen(logoP); 
+    ocultarImagen(logo); 
 };
