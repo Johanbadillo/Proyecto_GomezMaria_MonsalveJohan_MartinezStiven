@@ -73,7 +73,7 @@ nav a:hover{
     max-width: 1000px;
     margin: 2vh auto;
     padding: 0 2vw;
-    margin-bottom: 20vh;
+    margin-bottom: 40vh;
 }
 
 .titulo1{
@@ -258,15 +258,6 @@ nav a:hover{
     font-family: tittles;
 }
 
-#textoMensaje {
-    width: 90%;
-    height: 150px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
 #btnEnviarMensaje {
     background-color: #60C1F2;
     color: black;
@@ -322,6 +313,19 @@ nav a:hover{
 
 #btnRegresar:hover {
     background-color: #60C1F2;
+}
+
+#textoMensaje {
+    width: 90%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.topfor{
+    font-size: 1.4rem;
 }
 
 footer {
