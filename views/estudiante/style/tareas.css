@@ -6,13 +6,78 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    padding: 20px;
+    background-color: #EDEDED;
+}
+
+header {
+    background-color: #54A8D2;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.profile {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+    margin: 15px;
+}
+
+header a {
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 40px;
+    transition: all 0.2s;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    transform: scale(1.2);
 }
 
 .mitad {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 2vh auto;
+    padding: 0 2vw;
+    margin-bottom: 20vh;
+}
+
+.titulo1{
+    margin-top: 60px;
 }
 
 .titulo1 h1 {
@@ -47,6 +112,14 @@ body {
     border-radius: 10px;
 }
 
+.estad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
 .monitor {
     width: 24px;
     height: 24px;
@@ -78,7 +151,6 @@ body {
     border-radius: 15px;
     padding: 20px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    /*border-left: 4px solid #ffa726; -colot naranja */
     border-left: 4px solid #ff2626;
 }
 
@@ -99,7 +171,6 @@ body {
     color: #ffa726;
     font-size: 12px;
     font-weight: 500;
-    margin-bottom: 10px;
 }
 
 .nombreTarea {
@@ -140,7 +211,6 @@ body {
 
 .fecha-entrega {
     position: absolute;
-    top: 15px;
     right: 20px;
     color: #666;
     font-size: 12px;
@@ -148,4 +218,13 @@ body {
 
 .tarea-card {
     position: relative;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 2vh;
 }
