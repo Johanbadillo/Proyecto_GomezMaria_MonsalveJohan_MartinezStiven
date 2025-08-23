@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(199, 199, 199);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-header{
+header {
     background-color: #54A8D2;
     display: flex;
     justify-content: space-between;
@@ -19,28 +19,28 @@ header{
     padding: 5px 10%;
 }
 
-.logo{
+.logo {
     height: 75px;
     width: auto;
     cursor: pointer;
     transition: all 0.3s;
 }
 
-.profile{
+.profile {
     height: 60px;
     width: auto;
     transition: all 0.3s;
     margin: 10px;
 }
 
-.arrow{
+.arrow {
     height: 20px;
     width: auto;
     cursor: pointer;
     transition: all 0.3s;
 }
 
-header a{
+header a {
     font-size: 700;
     color: white;
     text-decoration: none;
@@ -49,7 +49,7 @@ header a{
     transition: all 0.2s;
 }
 
-.perfil{
+.perfil {
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -59,17 +59,18 @@ header a{
     align-items: center;
 }
 
-nav{
+nav {
     text-align: justify;
     display: flex;
     flex-wrap: nowrap;
 }
 
-nav a{
+nav a {
     color: black;
     font-size: 2rem;
 }
-.container1{
+
+.container1 {
     display: flex;
     position: relative;
     width: 100%;
@@ -81,19 +82,19 @@ nav a{
 
 
 
-.titulo h2{
+.titulo h2 {
     position: relative;
     font-weight: bold;
     font-size: 5rem;
-    
+
 }
 
-.subtitulo p{
+.subtitulo p {
     position: relative;
     right: 14rem;
 }
 
-.icono1{
+.icono1 {
     position: relative;
     width: 10%;
     right: 5rem;
@@ -101,26 +102,25 @@ nav a{
 }
 
 
-.container2{
+.container2 {
     display: flex;
     position: relative;
     width: 100vw;
     height: 100vh;
     flex-direction: row;
     text-align: center;
-   
+
 }
 
-.cuadro1{
+.cuadro1 {
     position: relative;
     background-color: rgb(255, 255, 255);
     left: 20rem;
     width: 10vw;
     height: 30vh;
     border-radius: 10%;
-    
-    
 }
+
 .circulo1 {
     display: flex;
     position: relative;
@@ -131,9 +131,10 @@ nav a{
     stroke-dashoffset: 200;
     stroke-linecap: round;
     animation: rellenar 1.5s ease-in-out forwards;
-    
+
 }
-.porcentaje{
+
+.porcentaje {
     position: relative;
     left: 4rem;
 }
@@ -141,31 +142,30 @@ nav a{
 @keyframes rellenar {
     to {
         stroke-dashoffset: 100;
-        /* 440 - (440 * 0.8) para 80% */
     }
 }
 
-.boton1 button{
+.boton1 button {
     position: relative;
-    width:5vw;
+    width: 5vw;
     height: 5vh;
     background-color: #54A8D2;
-    border-color:  #54A8D2;
+    border-color: #54A8D2;
     top: 18rem;
     left: 2rem;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
-    
+
 }
 
-.boton2 button{
+.boton2 button {
     position: relative;
-    width:5vw;
+    width: 5vw;
     height: 5vh;
     background-color: #54A8D2;
-    border-color:  #54A8D2;
+    border-color: #54A8D2;
     top: 26rem;
     right: 10rem;
     border-radius: 10px;
@@ -173,7 +173,7 @@ nav a{
     font-weight: bold;
 }
 
-.porcentaje1{
+.porcentaje1 {
     position: relative;
     left: -1rem;
     font-size: 1rem;
@@ -186,13 +186,14 @@ nav a{
 
 
 
-    
+
 .cuadro2 {
-    position: absolute; 
+    position: absolute;
     background-color: rgb(255, 255, 255);
-    left: 50rem; 
+    left: 50rem;
 }
-.container3{
+
+.container3 {
     display: flex;
     position: relative;
     width: 100vw;
@@ -202,14 +203,14 @@ nav a{
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-top: 5vh; 
+    padding-top: 5vh;
     bottom: 137vh;
 }
 
 .cuadro2 {
-    position: absolute; 
+    position: absolute;
     background-color: rgb(255, 255, 255);
-    left: 50rem; 
+    left: 50rem;
     width: 10vw;
     height: 30vh;
     border-radius: 10%;
@@ -228,9 +229,10 @@ nav a{
     stroke-dashoffset: 200;
     stroke-linecap: round;
     animation: rellenar 1.5s ease-in-out forwards;
-    
+
 }
-.porcentajeC2{
+
+.porcentajeC2 {
     position: relative;
     left: 3rem;
     bottom: 2vh;
@@ -243,12 +245,12 @@ nav a{
     }
 }
 
-.boton1C button{
+.boton1C button {
     position: relative;
-    width:5vw;
+    width: 5vw;
     height: 5vh;
     background-color: #54A8D2;
-    border-color:  #54A8D2;
+    border-color: #54A8D2;
     top: 1vh;
     right: 51rem;
     border-radius: 10px;
@@ -256,12 +258,12 @@ nav a{
     font-weight: bold;
 }
 
-.boton2C button{
+.boton2C button {
     position: relative;
-    width:5vw;
+    width: 5vw;
     height: 5vh;
     background-color: #54A8D2;
-    border-color:  #54A8D2;
+    border-color: #54A8D2;
     top: 9rem;
     right: 63rem;
     border-radius: 10px;
@@ -269,7 +271,7 @@ nav a{
     font-weight: bold;
 }
 
-.porcentajeN2{
+.porcentajeN2 {
     position: relative;
     right: 2rem;
     font-size: 1rem;
@@ -281,7 +283,7 @@ nav a{
 
 
 
-.container4{
+.container4 {
     display: flex;
     position: relative;
     width: 100vw;
@@ -291,28 +293,29 @@ nav a{
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-top: 5vh; 
+    padding-top: 5vh;
     bottom: 237vh;
     right: 35rem;
 }
 
-.tituloCuadro3{
+.tituloCuadro3 {
     position: relative;
     font-weight: bold;
     top: 1rem;
 }
 
 
-.cuadro3{
+.cuadro3 {
     position: relative;
     background-color: rgb(255, 255, 255);
     left: 20rem;
     width: 10vw;
     height: 30vh;
     border-radius: 10%;
-    
-    
+
+
 }
+
 .circulo3 {
     display: flex;
     position: relative;
@@ -323,9 +326,10 @@ nav a{
     stroke-dashoffset: 200;
     stroke-linecap: round;
     animation: rellenar 1.5s ease-in-out forwards;
-    
+
 }
-.porcentajeC3{
+
+.porcentajeC3 {
     position: relative;
     left: 4rem;
 }
@@ -337,12 +341,12 @@ nav a{
     }
 }
 
-.boton1E button{
+.boton1E button {
     position: relative;
-    width:5vw;
+    width: 5vw;
     height: 5vh;
     background-color: #54A8D2;
-    border-color:  #54A8D2;
+    border-color: #54A8D2;
     top: 1rem;
     left: 2rem;
     border-radius: 10px;
@@ -350,12 +354,12 @@ nav a{
     font-weight: bold;
 }
 
-.boton2E button{
+.boton2E button {
     position: relative;
-    width:5vw;
+    width: 5vw;
     height: 5vh;
     background-color: #54A8D2;
-    border-color:  #54A8D2;
+    border-color: #54A8D2;
     top: 10rem;
     right: 10rem;
     border-radius: 10px;
@@ -363,7 +367,7 @@ nav a{
     font-weight: bold;
 }
 
-.porcentajeN3{
+.porcentajeN3 {
     position: relative;
     left: -1rem;
     font-size: 1rem;
