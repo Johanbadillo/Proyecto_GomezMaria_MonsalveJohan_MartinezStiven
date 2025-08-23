@@ -63,6 +63,10 @@ nav {
     text-align: justify;
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
 }
 
 nav a {

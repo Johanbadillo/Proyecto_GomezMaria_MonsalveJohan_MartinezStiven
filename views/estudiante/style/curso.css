@@ -49,6 +49,10 @@ header a {
     transition: all 0.2s;
 }
 
+nav a:hover{
+    transform: scale(1.2);
+}
+
 .perfil {
     display: flex;
     flex-direction: row;
@@ -63,7 +67,12 @@ nav {
     text-align: justify;
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
 }
+
 
 nav a {
     color: black;
