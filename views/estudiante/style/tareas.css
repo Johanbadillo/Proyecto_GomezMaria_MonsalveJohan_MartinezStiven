@@ -220,6 +220,66 @@ nav a:hover{
     position: relative;
 }
 
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modalContenido {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 2px solid #54A8D2;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cerrarModal {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.modalContenido h2 {
+    margin-bottom: 20px;
+    font-family: tittles;
+}
+
+#textoMensaje {
+    width: 90%;
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#btnEnviarMensaje {
+    background-color: #60C1F2;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#btnEnviarMensaje:hover {
+    background-color: #54A8D2;
+}
 
 footer {
     background: #333;
