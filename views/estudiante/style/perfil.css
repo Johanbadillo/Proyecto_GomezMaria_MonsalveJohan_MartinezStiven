@@ -214,17 +214,130 @@ nav a{
     margin-top: 10px;
 }
 
+.cuadro2{
+     width: 90%;
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
 
+.titulo2 h2{
+    position: relative;
+    left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
 
+.nombreEstudiante{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    left: 2rem;
+}
 
+.nombreEstudiante input{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    margin-top: 10px;
+}
 
+.programa{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    left: 30rem;
+    bottom: 5vh;
+}
 
+.programa input{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    margin-top: 10px;
+}
 
+.fechaInicio{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    left: 60rem;
+    bottom: 10vh;
+}
 
+.fechaInicio input{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    margin-top: 10px;
+}
 
+.fechaFinalizacion{
+    position: relative;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    left: 2rem;
+    bottom: 7vh;
+}
 
+.fechaFinalizacion input{
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+    margin-top: 10px;
+}
 
+.botonCancelar button{
+    position: relative;
 
+    width: 3vw;
+    height: 3vh;
+     background-color: #54A8D2;
+     border-color:#54A8D2;
+}
+
+.botonActualizar button{
+    position: relative;
+    align-items: ;
+    width: 3vw;
+    height: 3vh;
+    background-color: #54A8D2;
+    border-color:#54A8D2;
+}
+
+.botonCerrarSesion button{
+    position: relative;
+    width: 5vw;
+    height: 3vh;
+    background-color: #737677;
+    border-color:#737677;
+    
+    
+}
 
 
 footer {
