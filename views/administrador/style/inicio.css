@@ -158,7 +158,7 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #06C1F2;
-  color: white;             
+  color: rgb(0, 0, 0);             
   font-size: 40px;          
   font-weight: bold;
   text-decoration: none;   
@@ -175,5 +175,70 @@ h1 {
 
 
 .contenedor2{
+    display: flex;
+    position: relative;
+    top: 50%;
+    right: 35%;
+    background-color: white;
+    width: 80vw;
+    height: 80vh;
+    margin: 2vh auto;
+    padding: 0 2vw;
+    justify-content: center;
+    align-items: center;
+}
 
+.chart-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 300px;
+    padding: 40px;
+}
+
+.bar-group {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar {
+    
+    width: 90px;
+    border-radius: 4px 4px 0 0;
+    transition: height 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.bar-green {
+    background-color: #28a745;
+    height: 250px   ;
+}
+
+.bar-gray {
+    background-color: #6c757d;
+}
+
+.bar-blue {
+    background-color: #4a5d8a;
+}
+
+.bar-label {
+    font-size: 12px;
+    color: #333;
+    font-weight: 500;
+}
+
+.bar-count {
+    font-size: 11px;
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 50vh;
 }
