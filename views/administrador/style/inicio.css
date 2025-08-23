@@ -93,7 +93,8 @@ h1 {
 .estadisticasPrincipales .cuadros {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 28%;
+    
 }
 
 .estadisticasPrincipales .cuadros .card {
@@ -101,8 +102,8 @@ h1 {
     padding: 20px;
     text-align: left;
     border-radius: 8px;
-    max-height: 160px;
     height: 12vi;
+    width: 30vi;
     font-family: tittles;
     font-size: 1.6rem;
     font-weight: lighter;
@@ -178,7 +179,7 @@ h1 {
     display: flex;
     position: relative;
     top: 50%;
-    right: 35%;
+    right: 128%;
     background-color: white;
     width: 80vw;
     height: 80vh;
@@ -186,14 +187,18 @@ h1 {
     padding: 0 2vw;
     justify-content: center;
     align-items: center;
+    border-radius: 3vi;
 }
 
 .chart-container {
     display: flex;
+    position: relative;
     justify-content: space-around;
     align-items: flex-end;
     height: 300px;
     padding: 40px;
+    top: 10vi;
+    
 }
 
 .bar-group {
@@ -205,7 +210,7 @@ h1 {
 
 .bar {
     
-    width: 90px;
+    width: 20vi;
     border-radius: 4px 4px 0 0;
     transition: height 0.5s ease;
     margin-bottom: 10px;
@@ -213,7 +218,7 @@ h1 {
 
 .bar-green {
     background-color: #28a745;
-    height: 250px   ;
+    
 }
 
 .bar-gray {
