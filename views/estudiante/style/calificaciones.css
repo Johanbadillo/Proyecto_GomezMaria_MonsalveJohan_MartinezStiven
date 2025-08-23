@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8e8e8;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    min-height: 100vh;
+}
+
+.principal {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+h1 {
+    color: #1e88e5;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.regresar {
+    background-color: #ffc107;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.regresar:hover {
+    background-color: #ffb300;
+}
+
+.texto1 {
+    margin-bottom: 1.5rem;
+}
+
+.texto1 p {
+    color: #333;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.tabla {
+    background-color: transparent;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+th{
+    text-align: left;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #000000;
+
+}
+
+td {
+    text-align: left;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.95rem;
+    color: #000000;
+}
