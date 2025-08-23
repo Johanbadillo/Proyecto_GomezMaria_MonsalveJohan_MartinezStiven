@@ -7,7 +7,109 @@
     <link rel="stylesheet" href="./style/inicio.css">
 </head>
 <body>
-    
+     <header>
+        <img class="logo" src="./media/logito.png" alt="logito">
+        <nav>
+            <a href="./inicio.html">Inicio</a>
+            <a href="./curso.html">Cursos</a>
+            <a href="./tareas.html">Tareas y Evaluaciones</a>
+            <a href="./progreso.html">Progreso Cursos</a>
+        </nav>
+        <div class="perfil">
+            <img class="profile" src="./media/sol.png" alt="modos">
+            <p>Stiven Martinez Villamizar</p>
+            <img class="profile" src="./media/perfil.png" alt="iconoPerfil">
+        </div>
+    </header>
+
+    <div class="contenido">
+        <article class="estadisticasPrincipales">
+            <h1>INICIO</h1>
+            <div class="cuadros">
+                <div class="card">
+                    <h3>Cursos</h3>
+                    <p>3</p>
+                </div>
+                <div class="card">
+                    <h3>Nota Apreciativa</h3>
+                    <p>70%</p>
+                </div>
+                
+            </div>
+        </article>
+        <article class="divCursos">
+            <div class="tituloCurso">
+                <h1>Cursos Docente</h1>
+                <a href="./curso.html">Ver mis Cursos</a>
+            </div>
+            <div class="cuadrosCursos">
+                <div class="cardCursos">
+                    <div class="cuadrito">
+                        <h4>Desarrollo de Apps</h4>
+                        <p>Dr. Juanito</p>
+                        <hr />
+                        <a href="./curso.html">Ir al Curso</a>
+                    </div>
+                </div>
+                <div class="cardCursos">
+                    <div class="cuadrito">
+                        <h4>Desarrollo de Apps</h4>
+                        <p>Dr. Juanito</p>
+                        <hr />
+                        <a href="./curso.html">Ir al Curso</a>
+                    </div>
+                </div>
+                <div class="cardCursos">
+                    <div class="cuadrito">
+                        <h4>Desarrollo de Apps</h4>
+                        <p>Dr. Juanito</p>
+                        <hr />
+                        <a href="./curso.html">Ir al Curso  </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="Notificaciones">
+            <h1>Mensajes De Los Estudiantes</h1>
+            <h4>Notificaciones Recientes</h4>
+            <div class="Mensajes">
+                <div class="msg">
+                    <p>Cordial Saludo Profesor, por favor revisar mi aplicativo en la plataforma.</p>
+                    <p class="tmp">hace 2 horas</p>
+                </div>
+                <div class="msg">
+                    <p>Cordial Saludo Profesor, por favor revisar mi aplicativo en la plataforma.</p>
+                    <p class="tmp">hace 2 horas</p>
+                </div>
+                <div class="msg">
+                    <p>Cordial Saludo Profesor, por favor revisar mi aplicativo en la plataforma.</p>
+                    <p class="tmp">hace 2 horas</p>
+                </div>
+                <div class="msg">
+                    <p>Cordial Saludo Profesor, por favor revisar mi aplicativo en la plataforma.</p>
+                    <p class="tmp">hace 2 horas</p>
+                </div>
+            </div>
+            <a href="">Enviar Notificacion General</a>
+        </article>
+    </div>
+    <div id="modalMensajeDocente" class="modal">
+        <div class="modalContenido">
+            <span class="cerrarModal">&times;</span>
+            <h2>Añadir mensaje:</h2>
+            <textarea id="textoMensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+            <button id="btnEnviarMensaje">Enviar a docente</button>
+        </div>
+    </div>
+    <div id="modalExito" class="modalExito">
+        <div class="modalContenidoExito">
+            <h2>ENVIADO EXITOSAMENTE</h2>
+            <button id="btnRegresar">Regresar</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Maria Gomez, Johan Monsalve y Stiven Martinez. Todos los derechos reservados.</p>
+    </footer>
 </body>
 <script src="./script/script.js"></script>
 </html>
