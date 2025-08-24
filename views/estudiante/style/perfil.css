@@ -9,7 +9,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 header{
     background-color: #54A8D2;
     display: flex;
@@ -21,329 +20,171 @@ header{
 
 .logo{
     height: 75px;
-    width: auto;
     cursor: pointer;
     transition: all 0.3s;
 }
 
 .profile{
     height: 60px;
-    width: auto;
-    transition: all 0.3s;
     margin: 10px;
-}
-
-.arrow{
-    height: 20px;
-    width: auto;
-    cursor: pointer;
     transition: all 0.3s;
 }
 
 header a{
-    font-size: 700;
+    font-weight: 700;
     color: white;
     text-decoration: none;
-    display: inline-block;
-    padding: 0 40px;
+    padding: 0 20px;
     transition: all 0.2s;
 }
 
 .perfil{
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 nav{
-    text-align: justify;
     display: flex;
-    flex-wrap: nowrap;
+    gap: 20px;
 }
 
 nav a{
     color: black;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .containerCuadro{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40vw;
-    height: 100vh;
-    background-color: rgb(165, 164, 164);
-    margin: auto; 
+    width: 60%;
+    background-color: rgb(245, 245, 245);
+    margin: 30px auto; 
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .cuadroColorSuperior{
     width: 100%;
-    height: 25%;
+    height: 180px;
     background-color: #073b53;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .fotoPerfil{
-    width: 320px;
-    height: 320px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
-    border: 5px solid rgb(0, 0, 0);
-    margin-top: 350px;
+    border: 4px solid white;
+    position: absolute;
+    bottom: -65px;
+    background: #fff;
 }
 
 .nombre{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: rgb(0, 0, 0);
-    margin-top: 170px;
+    margin-top: 80px;
+    font-weight: bold;
 }
 
 .rol p{
     font-size: 1rem;
     font-weight: bold;
-    margin-top: 10px;
-
+    margin-top: 5px;
+    text-align: center;
 }
 
-.linea1{
+.linea1, .linea2{
     width: 100%;
-    height: 2px;
-    border: rgb(0, 0, 0) solid 1px;
-    margin-top: 20px;
+    border-top: 1px solid rgb(0,0,0);
+    margin: 10px 0;
 }
 
- .cuadro1{
+.cuadro1, .cuadro2{
     width: 90%;
-    height: 30%;
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.titulo1 h2, .titulo2 h2{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-row{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.form-group{
+    flex: 1;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
- }
-
-.titulo1 h2{
-    position: relative;
-    left: 2rem;
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 20px;
 }
 
-.nombrePerfil{
-    position: relative;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    left: 2rem;
-}
-
-.nombrePerfil input{
-    width: 20%;
+.form-group input{
     height: 35px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #ccc;
     background-color: rgb(240, 240, 240);
     padding-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
-.correoPerfil{
-    position: relative;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    left: 30rem;
-    bottom: 5vh;
-}
-
-.correoPerfil input{
-    width: 20%;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(240, 240, 240);
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-.telefonoPerfil{
-    position: relative;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    left: 60rem;
-    bottom: 10vh;
-}
-
-.telefonoPerfil input{
-    width: 20%;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(240, 240, 240);
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-.Pais{
-    position: relative;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    left: 2rem;
-    bottom: 7vh;
-}
-
-.Pais input{
-    width: 20%;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(240, 240, 240);
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-.cuadro2{
-     width: 90%;
-    height: 25%;
-    background-color: rgb(255, 255, 255);
+.botones{
     display: flex;
-    flex-direction: column;
-    border-radius: 10px;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 15px;
 }
 
-.titulo2 h2{
-    position: relative;
-    left: 2rem;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 20px;
-}
-
-.nombreEstudiante{
-    position: relative;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    left: 2rem;
-}
-
-.nombreEstudiante input{
-    width: 20%;
-    height: 35px;
+.botones button{
+    padding: 8px 16px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(240, 240, 240);
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-.programa{
-    position: relative;
-    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
     font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    left: 30rem;
-    bottom: 5vh;
 }
 
-.programa input{
-    width: 20%;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(240, 240, 240);
-    padding-left: 10px;
-    margin-top: 10px;
+.botonCancelar{
+    background-color: #737677;
 }
 
-.fechaInicio{
-    position: relative;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    left: 60rem;
-    bottom: 10vh;
-}
-
-.fechaInicio input{
-    width: 20%;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(240, 240, 240);
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-.fechaFinalizacion{
-    position: relative;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-top: 10px;
-    left: 2rem;
-    bottom: 7vh;
-}
-
-.fechaFinalizacion input{
-    width: 20%;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-    background-color: rgb(240, 240, 240);
-    padding-left: 10px;
-    margin-top: 10px;
-}
-
-.botonCancelar button{
-    position: relative;
-
-    width: 3vw;
-    height: 3vh;
-     background-color: #54A8D2;
-     border-color:#54A8D2;
-}
-
-.botonActualizar button{
-    position: relative;
-    align-items: ;
-    width: 3vw;
-    height: 3vh;
+.botonActualizar{
     background-color: #54A8D2;
-    border-color:#54A8D2;
+}
+
+.botonCerrarSesion{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 .botonCerrarSesion button{
-    position: relative;
-    width: 5vw;
-    height: 3vh;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
     background-color: #737677;
-    border-color:#737677;
-    
-    
+    color: #fff;
+    cursor: pointer;
 }
-
 
 footer {
     background: #333;
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 9vh;
+    margin-top: 20px;
 }
