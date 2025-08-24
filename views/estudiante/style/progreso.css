@@ -21,53 +21,37 @@ header {
 
 .logo {
     height: 75px;
-    width: auto;
-    cursor: pointer;
     transition: all 0.3s;
 }
 
 .profile {
     height: 60px;
-    width: auto;
-    transition: all 0.3s;
     margin: 10px;
-}
-
-.arrow {
-    height: 20px;
-    width: auto;
-    cursor: pointer;
     transition: all 0.3s;
 }
 
 header a {
-    font-size: 700;
+    font-weight: 700;
     color: white;
     text-decoration: none;
-    display: inline-block;
-    padding: 0 40px;
+    padding: 0 20px;
     transition: all 0.2s;
 }
 
 .perfil {
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
     align-items: center;
+    gap: 10px;
 }
 
 nav {
-    text-align: justify;
     display: flex;
-    flex-wrap: nowrap;
+    gap: 20px;
 }
 
 nav a {
     color: black;
-    font-size: 2rem;
+    font-size: 1.2rem;
 }
 
 .container1 {
@@ -381,5 +365,5 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 2vh;
+    margin-top: 20px;
 }
