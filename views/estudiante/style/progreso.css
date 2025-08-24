@@ -10,7 +10,7 @@ body {
 }
 
 
-header {
+header{
     background-color: #54A8D2;
     display: flex;
     justify-content: space-between;
@@ -19,18 +19,18 @@ header {
     padding: 5px 10%;
 }
 
-.logo {
+.logo{
     height: 75px;
     transition: all 0.3s;
 }
 
-.profile {
+.profile{
     height: 60px;
     margin: 10px;
     transition: all 0.3s;
 }
 
-header a {
+header a{
     font-weight: 700;
     color: white;
     text-decoration: none;
@@ -38,18 +38,18 @@ header a {
     transition: all 0.2s;
 }
 
-.perfil {
+.perfil{
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-nav {
+nav{
     display: flex;
     gap: 20px;
 }
 
-nav a {
+nav a{
     color: black;
     font-size: 1.2rem;
 }
