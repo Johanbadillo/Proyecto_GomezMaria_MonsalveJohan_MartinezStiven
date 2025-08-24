@@ -1,5 +1,193 @@
-*{
-    margin: 0;
+
+@font-face {
+    font-family: tittles;
+    src: url(./../Fonts/carter-one/CarterOne.ttf);
+}
+
+@font-face {
+    font-family: numeros;
+    src: url(./../Fonts/digital-7/digital-7.ttf);
+}
+
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEDED;
+}
+
+header {
+    background-color: #54A8D2;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.profile {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+    margin: 15px;
+}
+
+header a {
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 40px;
+    transition: all 0.2s;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+
+.contenido {
+    max-width: 80vw;
+    margin: 2vh auto;
+    padding: 0 2vw;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
+.tituloCurso {
+    margin-bottom: 40px;
+}
+
+.tituloCurso p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.tituloCurso hr{
+    height: 3px;
+    background-color: #54A8D2;
+    border: none;
+    
+}
+
+.divCursos .cuadrosCursos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.divCursos .cardCursos {
+    background: url(./../media/images.jpeg)0% 0% no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: nowrap;
+    height: 350px;
+}
+
+.divCursos .cardCursos .cuadrito{
+    height: 65%;
+    background: white;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+.divCursos .cardCursos .cuadrito h4{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.divCursos .cardCursos .cuadrito p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin: 2%;
+}
+
+.divCursos .cardCursos .cuadrito .progreso{
+    color: #239400;
+}
+
+.divCursos .cardCursos .cuadrito a{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+hr{
+    width: 100%;
+}
+
+.cardCursos img {
+    width: 100%;
+    height: auto;
+}
+
+.cardCursos a {
+    display: block;
+    background: #60C1F2;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 40vh;
 }
