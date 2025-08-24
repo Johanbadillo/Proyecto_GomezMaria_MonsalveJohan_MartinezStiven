@@ -1,13 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tarea</title>
     <link rel="stylesheet" href="./style/tareas.css">
+    <link rel="shortcut icon" href="./media/perfil.png" type="image/x-icon">
 </head>
+
 <body>
-    
+    <!--
+    <header>
+        <div>
+            <h1>LMS PORTAL</h1>
+        </div>
+        <div>
+            <h2>Inicio</h2>
+            <h2>Cursos</h2>
+            <h2>Tareas y Evaluaciones</h2>
+            <h2>Progreso Cursos</h2>
+        </div>
+        <div>
+            <img src="../../Media/sol.png" alt="">
+            <h2>stiven martinez villamizar</h2>
+            <img src="../../Media/usericon.png" alt="">
+        </div>
+    </header>
+    -->
+    <header>
+        <img class="logo" src="./media/logito.png" alt="logito">
+        <nav>
+            <a href="./inicio.html">Inicio</a>
+            <a href="./curso.html">Cursos</a>
+            <a href="./tareas.html">Tareas y Evaluaciones</a>
+            <a href="./progreso.html">Progreso Cursos</a>
+        </nav>
+        <div class="perfil">
+            <img class="profile" src="./media/sol.png" alt="modos">
+            <p>Stiven Martinez Villamizar</p>
+            <img class="profile" src="./media/perfil.png" alt="iconoPerfil">
+        </div>
+    </header>
+    <div class="mitad">
+        <div class="titulo1">
+            <h1>Tus Tareas</h1>
+        </div>
+        <div class="completa">
+            <p>❗</p>
+            <p class="s">Completar las actividades del curso</p>
+        </div>
+
+        <div class="botonesTareas">
+            <div><img class="monitor" src="../../Media/monitor.png" alt="Monitor"></div>
+            <div><button class="onButton">Todo</button></div>
+            <div><button class="onButton">En curso</button></div>
+            <div><button class="onButton">Finalizado</button></div>
+        </div>
+
+        <div class="tareas">
+            <div class="tarea-card">
+                <div class="estad">
+                    <p class="estadoTarea">⚠️ Pendiente</p>
+                    <p class="fecha-entrega">📅 Fecha de entrega: 14 de marzo de 2024</p>
+                </div>
+                <div class="nombreTarea">Proyecto de aplicación de ropa</div>
+                <div class="descriTarea">
+                    Construye una plataforma completa de comercio electrónico con React, Node.js y MongoDB. Implementa
+                    la autenticación de usuarios, la gestión de productos, el carrito de compras y el procesamiento de
+                    pagos.
+                </div>
+                <div class="entregaTarea">
+                    <a href="#">revisar</a>
+                </div>
+            </div>
+        </div>
+        <div class="add">
+            <a href="">Añadir</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Maria Gomez, Johan Monsalve y Stiven Martinez. Todos los derechos reservados.</p>
+    </footer>
 </body>
-<script src="./script/script.js"></script>
+<script src="./script/tareas.js"></script>
+
 </html>

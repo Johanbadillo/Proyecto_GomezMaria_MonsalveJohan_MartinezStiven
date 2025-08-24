@@ -3,3 +3,259 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EDEDED;
+}
+
+header {
+    background-color: #54A8D2;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.profile {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+    margin: 15px;
+}
+
+header a {
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 40px;
+    transition: all 0.2s;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+}
+
+.mitad {
+    max-width: 1000px;
+    margin: 2vh auto;
+    padding: 0 2vw;
+    margin-bottom: 40vh;
+}
+
+.titulo1{
+    margin-top: 60px;
+}
+
+.titulo1 h1 {
+    color: #00bcd4;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.completa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.completa p {
+    margin: 0;
+}
+
+.s {
+    color: #333;
+    font-size: 14px;
+}
+
+.botonesTareas {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.estad{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.monitor {
+    width: 24px;
+    height: 24px;
+}
+
+.onButton {
+    background: #e0e0e0;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: #666;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.onButton:hover {
+    color: rgb(0, 0, 0);
+}
+
+.tareas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tarea-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #ff2626;
+}
+
+.tarea-header {
+    display: flex;
+    justify-content: between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.fechaTarea {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.estadoTarea {
+    color: #ffa726;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nombreTarea {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.descriTarea {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.entregaTarea {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.entregaTarea a {
+    background: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.entregaTarea a:hover {
+    background: #0097a7;
+    transform: translateY(-2px);
+}
+
+.fecha-entrega {
+    position: absolute;
+    right: 20px;
+    color: #666;
+    font-size: 12px;
+}
+
+.tarea-card {
+    position: relative;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+}
+
+
+.add a{
+    background: #00bcd4;
+    color: #333;
+    padding: 15px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    width: 150px;
+}
+
+.add a:hover {
+    background: #0097a7;
+    transform: translateY(-2px);
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 2vh;
+}
