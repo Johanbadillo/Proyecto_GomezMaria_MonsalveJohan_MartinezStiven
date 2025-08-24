@@ -147,9 +147,10 @@ button {
     font-weight: bold;
     font-size: 1vw;
     transition: background-color 0.3s ease;
-    margin-left: 18vw;
-    margin-right: 18vw;
     text-align: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a:hover {
