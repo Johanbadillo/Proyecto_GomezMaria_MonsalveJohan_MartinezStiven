@@ -137,7 +137,7 @@ select:focus {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-a {
+button {
     background-color: #54A8D2;
     color: rgb(0, 0, 0);
     padding: 1vw 2vw 1vw 2vw;
