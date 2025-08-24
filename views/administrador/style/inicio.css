@@ -1,5 +1,249 @@
-*{
-    margin: 0;
+@font-face {
+    font-family: tittles;
+    src: url(./../Fonts/carter-one/CarterOne.ttf);
+}
+
+@font-face {
+    font-family: numeros;
+    src: url(./../Fonts/digital-7/digital-7.ttf);
+}
+
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEDED;
+}
+
+header {
+    background-color: #54A8D2;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.profile {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+    margin: 15px;
+}
+
+header a {
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 40px;
+    transition: all 0.2s;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+}
+
+.contenido {
+    max-width: 80vw;
+    margin: 2vh auto;
+    padding: 0 2vw;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.estadisticasPrincipales .cuadros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28%;
+    
+}
+
+.estadisticasPrincipales .cuadros .card {
+    background: white;
+    padding: 20px;
+    text-align: left;
+    border-radius: 8px;
+    height: 12vi;
+    width: 30vi;
+    font-family: tittles;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.tituloCurso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.tituloCurso a {
+    display: block;
+    background: #60C1F2;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.estadisticasPrincipales .cuadros .card p {
+    font-family: numeros;
+    font-size: 5rem;
+}
+
+.divCursos .cuadrosCursos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.circulo{
+    position: relative;
+    background-color: #60C1F2;
+    border-color: #60C1F2;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    left: 10vi;
+    bottom: 10vh;
+
+}
+
+.circulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #06C1F2;
+  color: rgb(0, 0, 0);             
+  font-size: 40px;          
+  font-weight: bold;
+  text-decoration: none;   
+  border-radius: 50%;       
+  width: 60px;
+  height: 60px;
+  transition: 0.3s;
+}
+
+.circulo:hover {
+  background-color: #0288b7; 
+}
+
+
+
+.contenedor2{
+    display: flex;
+    position: relative;
+    top: 50%;
+    right: 128%;
+    background-color: white;
+    width: 80vw;
+    height: 80vh;
+    margin: 2vh auto;
+    padding: 0 2vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vi;
+}
+
+.chart-container {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 300px;
+    padding: 40px;
+    top: 10vi;
+    
+}
+
+.bar-group {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar {
+    
+    width: 20vi;
+    border-radius: 4px 4px 0 0;
+    transition: height 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.bar-green {
+    background-color: #28a745;
+    
+}
+
+.bar-gray {
+    background-color: #6c757d;
+}
+
+.bar-blue {
+    background-color: #4a5d8a;
+}
+
+.bar-label {
+    font-size: 12px;
+    color: #333;
+    font-weight: 500;
+}
+
+.bar-count {
+    font-size: 11px;
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 50vh;
 }
