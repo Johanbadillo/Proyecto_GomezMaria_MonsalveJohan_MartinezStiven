@@ -14,10 +14,10 @@
         <img class="logo" src="./media/logito.png" alt="logito">
         <nav>
             <a href="./inicio.html">Inicio</a>
-            <a href="./Gestionar.html">Gestionar</a>
-            <a href="./Estudiantes.html">Estudiantes</a>
-            <a href="./Docentes.html">Docentes</a>
-            <a href="./Cursos.html">Cursos</a>
+            <a href="./gestionar.html">Gestion</a>
+            <a href="#">Estudiantes</a>
+            <a href="#">Docentes</a>
+            <a href="#">Cursos</a>
         </nav>
         <div class="perfil">
             <img class="profile" src="./media/sol.png" alt="modos">
@@ -93,7 +93,7 @@
             </div>
 
         </div>
-            <div class="cuadro6">
+        <div class="cuadro6">
             <h1>Añadir Modulos A Cursos</h1>
             <br>
 
@@ -121,7 +121,7 @@
 
         </div>
 
-           <div class="cuadro8">
+        <div class="cuadro8">
             <h1>Administrar Docentes</h1>
             <br>
 
@@ -135,7 +135,7 @@
 
         </div>
 
-           <div class="cuadro9">
+        <div class="cuadro9">
             <h1>Administrar Cursos</h1>
             <br>
 
@@ -149,6 +149,63 @@
 
         </div>
 
+        <section id="gestionar">
+
+
+            <div id="menuGestionar">
+                <div class="card" onclick="mostrarSeccion('formEstudiante')">
+                    <h3>Añadir Estudiante</h3>
+                    <button>Añadir Estudiante</button>
+                </div>
+                <div class="card" onclick="mostrarSeccion('formDocente')">
+                    <h3>Añadir Docente</h3>
+                    <button>Añadir Docente</button>
+                </div>
+                <div class="card" onclick="mostrarSeccion('formCurso')">
+                    <h3>Añadir Curso</h3>
+                    <button>Añadir Curso</button>
+                </div>
+            </div>
+
+            <div id="formEstudiante" class="oculto">
+                <h2>AÑADIR ESTUDIANTE NUEVO</h2>
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text"><br>
+                    <label>Contraseña:</label>
+                    <input type="password"><br>
+                    <label>Estado:</label>
+                    <input type="text"><br>
+                    <button type="submit">Añadir Estudiante</button>
+                </form>
+                <button onclick="volverMenu()">⬅ Volver</button>
+            </div>
+
+            <div id="formDocente" class="oculto">
+                <h2>AÑADIR DOCENTE NUEVO</h2>
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text"><br>
+                    <label>Especialidad:</label>
+                    <input type="text"><br>
+                    <button type="submit">Añadir Docente</button>
+                </form>
+                <button onclick="volverMenu()">⬅ Volver</button>
+            </div>
+
+            <div id="formCurso" class="oculto">
+                <h2>AÑADIR CURSO NUEVO</h2>
+                <form>
+                    <label>Nombre del curso:</label>
+                    <input type="text"><br>
+                    <label>Descripción:</label>
+                    <textarea></textarea><br>
+                    <button type="submit">Añadir Curso</button>
+                </form>
+                <button onclick="volverMenu()">⬅ Volver</button>
+            </div>
+
+        </section>
 
 
 
