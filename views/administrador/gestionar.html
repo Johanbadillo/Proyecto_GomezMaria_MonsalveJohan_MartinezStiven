@@ -149,6 +149,63 @@
 
         </div>
 
+<section id="gestionar">
+
+  
+  <div id="menuGestionar">
+    <div class="card" onclick="mostrarSeccion('formEstudiante')">
+      <h3>Añadir Estudiante</h3>
+      <button>Añadir Estudiante</button>
+    </div>
+    <div class="card" onclick="mostrarSeccion('formDocente')">
+      <h3>Añadir Docente</h3>
+      <button>Añadir Docente</button>
+    </div>
+    <div class="card" onclick="mostrarSeccion('formCurso')">
+      <h3>Añadir Curso</h3>
+      <button>Añadir Curso</button>
+    </div>
+  </div>
+
+  <div id="formEstudiante" class="oculto">
+    <h2>AÑADIR ESTUDIANTE NUEVO</h2>
+    <form>
+      <label>Nombre:</label>
+      <input type="text"><br>
+      <label>Contraseña:</label>
+      <input type="password"><br>
+      <label>Estado:</label>
+      <input type="text"><br>
+      <button type="submit">Añadir Estudiante</button>
+    </form>
+    <button onclick="volverMenu()">⬅ Volver</button>
+  </div>
+
+  <div id="formDocente" class="oculto">
+    <h2>AÑADIR DOCENTE NUEVO</h2>
+    <form>
+      <label>Nombre:</label>
+      <input type="text"><br>
+      <label>Especialidad:</label>
+      <input type="text"><br>
+      <button type="submit">Añadir Docente</button>
+    </form>
+    <button onclick="volverMenu()">⬅ Volver</button>
+  </div>
+
+  <div id="formCurso" class="oculto">
+    <h2>AÑADIR CURSO NUEVO</h2>
+    <form>
+      <label>Nombre del curso:</label>
+      <input type="text"><br>
+      <label>Descripción:</label>
+      <textarea></textarea><br>
+      <button type="submit">Añadir Curso</button>
+    </form>
+    <button onclick="volverMenu()">⬅ Volver</button>
+  </div>
+
+</section>
 
 
 

@@ -183,11 +183,14 @@ nav a{
 
 
 .cuadro2{
+    display: flex;
+    flex-direction: column;
     width: 90%;
     background-color: #fff;
     border-radius: 10px;
     padding: 20px;
     margin: 20px 0;
+    
 }
 
 .titulo2 h2{
@@ -204,14 +207,16 @@ nav a{
 
 .redes-sociales{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
     margin-top: 10px;
+    margin-left: 15vi;
 }
 
 .redes-sociales img{
-    width: 40px;
-    height: 40px;
+    position: relative;
+    width: 5vw;
+    height: 7vh;
     transition: transform 0.2s;
     cursor: pointer;
 }
