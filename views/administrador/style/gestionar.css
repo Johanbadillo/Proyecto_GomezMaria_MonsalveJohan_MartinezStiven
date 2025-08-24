@@ -1,5 +1,372 @@
-*{
-    margin: 0;
+@font-face {
+    font-family: tittles;
+    src: url(./../Fonts/carter-one/CarterOne.ttf);
+}
+
+@font-face {
+    font-family: numeros;
+    src: url(./../Fonts/digital-7/digital-7.ttf);
+}
+
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEDED;
+}
+
+header {
+    background-color: #54A8D2;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.profile {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+    margin: 15px;
+}
+
+header a {
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 40px;
+    transition: all 0.2s;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+}
+
+.container1{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto   auto;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 1vi;
+    margin-top: 2vi;
+    flex-direction: row;
+    gap: 60px;
+   
+}
+
+.cuadro1 {
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3vi;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+
+.EstudiantesCreados1 p{
+    position: relative;
+    top: 2vi;
+    font-size: 2vi;
+}
+
+.botonEstudiantes button{
+position: relative;
+top: 5vi;
+background-color:#54A8D2 ;
+border-color: #54A8D2;
+height: 6vh;
+width: 10vw;
+cursor: pointer;
+}
+
+.cuadro2 {
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3vi;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.EstudiantesCreados{
+    position: relative;
+    top: 5vi;
+    font-size: 2vi;
+}
+
+.botonDocente button{
+position: relative;
+top: 8vi;
+background-color:#54A8D2 ;
+border-color: #54A8D2;
+height: 6vh;
+width: 10vw;
+cursor: pointer;
+}
+
+.cuadro3 {
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3vi;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.EstudiantesCreados{
+    position: relative;
+    top: 5vi;
+    font-size: 2vi;
+}
+
+.botonCursos button{
+position: relative;
+top: 8vi;
+background-color:#54A8D2 ;
+border-color: #54A8D2;
+height: 6vh;
+width: 10vw;
+cursor: pointer;
+}
+
+
+.cuadro4 {
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3vi;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+
+.EstudiantesCreados4{
+    position: relative;
+    top: 2vi;
+    font-size: 2vi;
+}
+
+.botonAñadirEstudiantes button{
+position: relative;
+top: 5vi;
+background-color:#54A8D2 ;
+border-color: #54A8D2;
+height: 6vh;
+width: 10vw;
+cursor: pointer;
+}
+
+.cuadro5 {
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3vi;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.cuposDisponibles5{
+    position: relative;
+    top: 2vi;
+    font-size: 2vi;
+   
+}
+
+.botonAñadirDocente button{
+position: relative;
+top: 5vi;
+background-color:#54A8D2 ;
+border-color: #54A8D2;
+height: 6vh;
+width: 10vw;
+cursor: pointer;
+}
+
+
+.cuadro6 {
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3vi;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.cuposDisponibles6{
+    position: relative;
+    top: 2vi;
+    font-size: 2vi;
+   
+}
+
+.botonAñadirModulo button{
+position: relative;
+top: 5vi;
+background-color:#54A8D2 ;
+border-color: #54A8D2;
+height: 6vh;
+width: 10vw;
+cursor: pointer;
+}
+
+
+.cuadro7{
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3vi;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.cuposDisponibles7{
+    position: relative;
+    top: 2vi;
+    font-size: 2vi;
+   
+}
+
+.botonAñadirModulo button{
+position: relative;
+top: 5vi;
+background-color:#54A8D2 ;
+border-color: #54A8D2;
+height: 6vh;
+width: 10vw;
+cursor: pointer;
+}
+
+.cuadro8{
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3vi;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.cuposDisponibles8{
+    position: relative;
+    top: 2vi;
+    font-size: 2vi;
+   
+}
+
+.botonAñadirEstudiante button{
+position: relative;
+top: 5vi;
+background-color:#54A8D2 ;
+border-color: #54A8D2;
+height: 6vh;
+width: 10vw;
+cursor: pointer;
+}
+
+.cuadro9{
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 3vi;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.cuposDisponibles9{
+    position: relative;
+    top: 2vi;
+    font-size: 2vi;
+   
+}
+
+.botonAñadirCurso button{
+position: relative;
+top: 5vi;
+background-color:#54A8D2 ;
+border-color: #54A8D2;
+height: 6vh;
+width: 10vw;
+cursor: pointer;
+}
+
+
+
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 50vh;
 }
