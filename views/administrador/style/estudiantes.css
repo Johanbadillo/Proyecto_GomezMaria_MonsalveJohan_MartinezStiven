@@ -1,5 +1,164 @@
-*{
-    margin: 0;
+@font-face {
+    font-family: tittles;
+    src: url(./../Fonts/carter-one/CarterOne.ttf);
+}
+
+@font-face {
+    font-family: numeros;
+    src: url(./../Fonts/digital-7/digital-7.ttf);
+}
+
+* {
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #EDEDED;
+}
+
+header {
+    background-color: #54A8D2;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 5px 10%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 75px;
+    width: auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.profile {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+    margin: 15px;
+}
+
+header a {
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 40px;
+    transition: all 0.2s;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    text-align: justify;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+nav a {
+    color: black;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    transform: scale(1.2);
+}
+
+
+.container1 {
+  background: white;
+  width: 70vw;
+  height: 100vh;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.busqueda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.busqueda img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.busqueda input {
+  padding: 8px;
+  width: 40%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.tablaDocentes {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.tablaDocentes th, .tablaDocentes td {
+  padding: 12px;
+  text-align: center;
+  
+}
+
+.tablaDocentes th {
+  font-weight: bold;
+}
+
+.estado.activo {
+  color: green;
+  font-weight: bold;
+}
+
+.estado.inactivo {
+  color: red;
+  font-weight: bold;
+}
+
+.tablaDocentes img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-add {
+  margin-top: 1.5rem;
+  background: #54A8D2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-add:hover {
+  background: #3b8cb3;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1.5vh;
+    margin-top: 50vh;
 }
