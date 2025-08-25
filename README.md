@@ -10,6 +10,7 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 <br>
 
 | **Rol Administrador**
+
 <br>
 <br>
 <br>
@@ -24,6 +25,7 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 <br>
 
 | **Rol Docente**
+
 <br>
 <br>
 <br>
@@ -38,6 +40,7 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 <br>
 
 | **Rol Estudiante**
+
 <br>
 <br>
 <br>
