@@ -1,13 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style/cursos.css">
+    <link rel="stylesheet" href="./style/estudiantes.css">
 </head>
+
 <body>
-    
+    <header>
+        <img class="logo" src="./media/logito.png" alt="logito">
+        <nav>
+            <a href="./inicio.html">Inicio</a>
+            <a href="./gestionar.html">Gestion</a>
+            <a href="./estudiantes.html">Estudiantes</a>
+            <a href="./docentes.html">Docentes</a>
+            <a href="./cursos.html">Cursos</a>
+        </nav>
+        <div class="perfil">
+            <img class="profile" src="./media/sol.png" alt="modos">
+            <p>Stiven Martinez Villamizar</p>
+            <img class="profile" src="./media/perfil.png" alt="iconoPerfil">
+        </div>
+    </header>
+    <div class="container1">
+        <h1>GESTION CURSOS</h1>
+        <br>
+        <div class="busqueda">
+            <img src="./media/busqueda.png" class="botonBusqueda">
+            <input type="text" name="botonBusqueda" id="botonBusqueda" placeholder="Buscar Cursos....">
+        </div>
+        <br>
+        <br>
+        <table class="tablaDocentes">
+            <thead>
+                <tr>
+                    <th>Docente</th>
+                    <th>Cursos a Cargo</th>
+                    <th>Estado</th>
+                    <th>Ver</th>
+                    <th>Editar</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan Velandia</td>
+                    <td>4 cursos</td>
+                    <td class="estado inactivo">Inactivo</td>
+                    <td><a href="#"><img src="./media/ojo-abierto.png" alt="ver"></a></td>
+                    <td><a href="#"><img src="./media/editar-texto.png" alt="editar"></a></td>
+                </tr>
+                <tr>
+                    <td>Juan Velandia</td>
+                    <td>4 cursos</td>
+                    <td class="estado activo">Activo</td>
+                    <td><a href="#"><img src="./media/ojo-abierto.png" alt="ver"></a></td>
+                    <td><a href="#"><img src="./media/editar-texto.png" alt="editar"></a></td>
+                </tr>
+                <td>Juan Velandia</td>
+                <td>4 cursos</td>
+                <td class="estado inactivo">inactivo</td>
+                <td><a href="#"><img src="./media/ojo-abierto.png" alt="ver"></a></td>
+                <td><a href="#"><img src="./media/editar-texto.png" alt="editar"></a></td>
+                </tr>
+                <td>Juan Velandia</td>
+                <td>4 cursos</td>
+                <td class="estado activo">Activo</td>
+                <td><a href="#"><img src="./media/ojo-abierto.png" alt="ver"></a></td>
+                <td><a href="#"><img src="./media/editar-texto.png" alt="editar"></a></td>
+                </tr>
+                <td>Juan Velandia</td>
+                <td>4 cursos</td>
+                <td class="estado inactivo">Inactivo</td>
+                <td><a href="#"><img src="./media/ojo-abierto.png" alt="ver"></a></td>
+                <td><a href="#"><img src="./media/editar-texto.png" alt="editar"></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="botonAñadir">
+        <button>AÑADIR ESTUDIANTES </button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Maria Gomez, Johan Monsalve y Stiven Martinez. Todos los derechos reservados.</p>
+    </footer>
 </body>
 <script src="./script/script.js"></script>
+
 </html>
