@@ -8,7 +8,8 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 
  # **Características principales** #
 <br>
-- Rol Administrador
+
+| **Rol Administrador**
 <br>
 <br>
 - Gestión de cursos.
@@ -20,7 +21,8 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 - Control de perfiles y configuraciones.
 <br>
 <br>
-- Rol Docente
+
+| **Rol Docente**
 <br>
 <br>
 - Creación y gestión de cursos.
@@ -32,7 +34,8 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 - Seguimiento del progreso de los estudiantes.
 <br>
 <br>
-- Rol Estudiante
+
+| **Rol Estudiante**
 <br>
 <br>
 - Inscripción y exploración de cursos.
