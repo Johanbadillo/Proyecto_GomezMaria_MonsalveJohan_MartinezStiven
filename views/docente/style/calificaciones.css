@@ -10,65 +10,51 @@ body {
     min-height: 100vh;
 }
 
-header {
-    background-color: #54A8D2;
+/*Inicio estilo header*/
+header{
     display: flex;
-    align-items: center;
-    height: 80px;
-    padding: 5px 10%;
+    flex-direction: row;
+    background-color: #54A8D2;
+    gap: 3vw;
+    padding: 0vw 2vw;
     justify-content: space-between;
 }
-
-.logo {
-    height: 75px;
-    width: auto;
-    cursor: pointer;
-    transition: all 0.3s;
+.logo{
+    width: 15vw;
+    height: 3vw;
+    margin-top: 0.5vw;
 }
-
-.profile {
-    height: 60px;
-    width: auto;
-    transition: all 0.3s;
-    margin: 15px;
+.barra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2vw;
+    margin: 1vw 0;
 }
-
-header a {
-    font-weight: 700;
+.barra a{
+    font-size: 1.5vw;
     text-decoration: none;
-    display: inline-block;
-    padding: 0 40px;
-    transition: all 0.2s;
+    color: black;  
+    text-wrap: nowrap;  
 }
-
-.perfil {
+.perfil{
     display: flex;
     flex-direction: row;
-    text-align: center;
     flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    gap: 2vw;
+}
+.nombreUser{
+    font-size: 1vw;
+    text-wrap: nowrap;
+    margin-top: 1.5vw;
+}
+.profile{
+    width: 3vw;
+    height: 3vw;
+    margin: auto;
 }
 
-nav {
-    text-align: justify;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
-}
-
-nav a {
-    color: black;
-    font-size: 1.2rem;
-}
-
-nav a:hover{
-    transform: scale(1.2);
-}
+/*Fin estilo header*/
 
 .principal {
     max-width: 1200px;
@@ -152,99 +138,6 @@ td {
     font-size: 0.95rem;
     color: #000000;
 }
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-}
-
-.modalContenido {
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    border: 2px solid #54A8D2;
-    border-radius: 8px;
-    width: 60%;
-    max-width: 500px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cerrarModal {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.modalContenido h2 {
-    margin-bottom: 20px;
-    font-family: tittles;
-}
-
-#textoMensaje {
-    width: 90%;
-    height: 150px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
-#btnEnviarMensaje {
-    background-color: #60C1F2;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-
-#btnEnviarMensaje:hover {
-    background-color: #54A8D2;
-}
-
-.modalExito {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-}
-
-.modalContenidoExito {
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    border: 2px solid #54A8D2;
-    border-radius: 8px;
-    width: 60%;
-    max-width: 500px;
-    text-align: center;
-    position: relative;
-}
-
-.modalContenidoExito h2 {
-    margin-bottom: 20px;
-    font-family: tittles;
-    color: #000;
-}
-
-
-
-
 
 footer {
     background: #333;

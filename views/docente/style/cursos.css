@@ -18,40 +18,51 @@ body {
     background-color: #EDEDED;
 }
 
-header {
-    background-color: #54A8D2;
+/*Inicio estilo header*/
+header{
     display: flex;
-    align-items: center;
-    height: 80px;
-    padding: 5px 10%;
+    flex-direction: row;
+    background-color: #54A8D2;
+    gap: 3vw;
+    padding: 0vw 2vw;
     justify-content: space-between;
 }
-
-.logo {
-    height: 75px;
-    width: auto;
-    cursor: pointer;
-    transition: all 0.3s;
+.logo{
+    width: 15vw;
+    height: 3vw;
+    margin-top: 0.5vw;
 }
-
-.profile {
-    height: 60px;
-    width: auto;
-    transition: all 0.3s;
-    margin: 15px;
+.barra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2vw;
+    margin: 1vw 0;
 }
-
-header a {
-    font-weight: 700;
+.barra a{
+    font-size: 1.5vw;
     text-decoration: none;
-    display: inline-block;
-    padding: 0 40px;
-    transition: all 0.2s;
+    color: black;  
+    text-wrap: nowrap;  
+}
+.perfil{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2vw;
+}
+.nombreUser{
+    font-size: 1vw;
+    text-wrap: nowrap;
+    margin-top: 1.5vw;
+}
+.profile{
+    width: 3vw;
+    height: 3vw;
+    margin: auto;
 }
 
-nav a:hover{
-    transform: scale(1.2);
-}
+/*Fin estilo header*/
 
 .perfil {
     display: flex;

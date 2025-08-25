@@ -10,49 +10,50 @@ body {
 }
 
 
+/*Inicio estilo header*/
 header{
-    background-color: #54A8D2;
     display: flex;
+    flex-direction: row;
+    background-color: #54A8D2;
+    gap: 3vw;
+    padding: 0vw 2vw;
     justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    padding: 5px 10%;
 }
-
 .logo{
-    height: 75px;
-    transition: all 0.3s;
+    width: 15vw;
+    height: 3vw;
+    margin-top: 0.5vw;
 }
-
-.profile{
-    height: 60px;
-    margin: 10px;
-    transition: all 0.3s;
+.barra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2vw;
+    margin: 1vw 0;
 }
-
-header a{
-    font-weight: 700;
-    color: white;
+.barra a{
+    font-size: 1.5vw;
     text-decoration: none;
-    padding: 0 20px;
-    transition: all 0.2s;
+    color: black;  
+    text-wrap: nowrap;  
 }
-
 .perfil{
     display: flex;
-    align-items: center;
-    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2vw;
 }
-
-nav{
-    display: flex;
-    gap: 20px;
+.nombreUser{
+    font-size: 1vw;
+    text-wrap: nowrap;
+    margin-top: 1.5vw;
 }
-
-nav a{
-    color: black;
-    font-size: 1.2rem;
+.profile{
+    width: 3vw;
+    height: 3vw;
+    margin: auto;
 }
+/*Fin estilo header*/
 
 .container1 {
     display: flex;

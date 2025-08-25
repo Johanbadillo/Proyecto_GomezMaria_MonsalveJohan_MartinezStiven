@@ -13,347 +13,91 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-body {
-    background-color: #EDEDED;
-}
-
-header {
+/*Inicio estilo header*/
+header{
+    display: flex;
+    flex-direction: row;
     background-color: #54A8D2;
-    display: flex;
-    align-items: center;
-    height: 80px;
-    padding: 5px 10%;
+    gap: 3vw;
+    padding: 0vw 2vw;
     justify-content: space-between;
 }
-
-.logo {
-    height: 75px;
-    width: auto;
-    transition: all 0.3s;
+.logo{
+    width: 15vw;
+    height: 3vw;
+    margin-top: 0.5vw;
 }
-
-.profile {
-    height: 60px;
-    width: auto;
-    transition: all 0.3s;
-    margin: 15px;
+.barra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2vw;
+    margin: 1vw 0;
 }
-
-header a {
-    font-weight: 700;
+.barra a{
+    font-size: 1.5vw;
     text-decoration: none;
-    display: inline-block;
-    padding: 0 40px;
-    transition: all 0.2s;
+    color: black;  
+    text-wrap: nowrap;  
 }
-
-.perfil {
+.perfil{
     display: flex;
     flex-direction: row;
-    text-align: center;
     flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    gap: 2vw;
+}
+.nombreUser{
+    font-size: 1vw;
+    text-wrap: nowrap;
+    margin-top: 1.5vw;
+}
+.profile{
+    width: 3vw;
+    height: 3vw;
+    margin: auto;
 }
 
-nav {
-    text-align: justify;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
-}
+/*Fin estilo header*/
 
-nav a {
-    color: black;
-    font-size: 1.2rem;
-}
 
-nav a:hover{
-    transform: scale(1.2);
+.contenido{
+    background-color: red;
+    margin: 5vw 15vw;
 }
-
-.contenido {
-    max-width: 80vw;
-    margin: 2vh auto;
-    padding: 0 2vw;
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-
-.estadisticasPrincipales .cuadros {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.estadisticasPrincipales .cuadros .card {
-    background: white;
-    padding: 20px;
-    text-align: left;
-    border-radius: 8px;
-    max-height: 160px;
-    height: 12vi;
+.tituloPrincipal{
     font-family: tittles;
-    font-size: 1.6rem;
-    font-weight: lighter;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: nowrap;
+    font-size: 2.5vw;
 }
-
-.tituloCurso {
-    display: flex;
-    align-items: center;
+.cuadros{
     justify-content: space-between;
+    display: flex;
     flex-wrap: nowrap;
 }
-
-.tituloCurso a {
-    display: block;
-    background: #60C1F2;
-    color: #000000;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 1.2rem;
+.card{
+    width: 15vw;
+    font-size: 2vw;
+    margin: 2vw;
+    background-color: white;
+    padding: 0.5vw;
+    border-radius: 5px;
 }
-
-.estadisticasPrincipales .cuadros .card p {
+.card h3{
+    font-size: 2vw;
+    text-wrap: nowrap;
+}
+.card p{
     font-family: numeros;
-    font-size: 5rem;
+    font-size: 3vw;
 }
 
-.divCursos .cuadrosCursos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
 
-.divCursos .cardCursos {
-    background: url(./../media/images.jpeg)0% 0% no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
-    flex-wrap: nowrap;
-    height: 350px;
-}
 
-.divCursos .cardCursos .cuadrito {
-    height: 65%;
-    background: white;
-    width: 100%;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    align-content: center;
-    flex-wrap: nowrap;
-    padding: 20px;
-    justify-content: center;
-}
-
-.divCursos .cardCursos .cuadrito h4 {
-    font-size: 1.5rem;
-    font-family: sans-serif;
-}
-
-.divCursos .cardCursos .cuadrito p {
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    margin: 2%;
-}
-
-.divCursos .cardCursos .cuadrito .progreso {
-    color: #239400;
-}
-
-.divCursos .cardCursos .cuadrito a {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10%;
-}
-
-hr {
-    width: 100%;
-}
-
-.cardCursos img {
-    width: 100%;
-    height: auto;
-}
-
-.cardCursos a {
-    display: block;
-    background: #60C1F2;
-    color: #000000;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
-.Notificaciones h1 {
-    margin: 0;
-    margin-top: 50px;
-}
-
-.Notificaciones h4 {
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-
-.Notificaciones .Mensajes {
-    display: flex;
-    flex-direction: column;
-}
-
-.Notificaciones .msg {
-    display: flex;
-    justify-content: space-between;
-    background: #D9D9D9;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
-}
-
-.Notificaciones .tmp {
-    color: gray;
-}
-
-.Notificaciones a {
-    text-decoration: none;
-    font-size: 2rem;
-    color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-
-}
-
-.modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-}
-
-.modalContenido {
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    border: 2px solid #54A8D2;
-    border-radius: 8px;
-    width: 60%;
-    max-width: 500px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cerrarModal {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.modalContenido h2 {
-    margin-bottom: 20px;
-    font-family: tittles;
-}
-
-#textoMensaje {
-    width: 90%;
-    height: 150px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
-#btnEnviarMensaje {
-    background-color: #60C1F2;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-
-#btnEnviarMensaje:hover {
-    background-color: #54A8D2;
-}
-
-.modalExito {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-}
-
-.modalContenidoExito {
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    border: 2px solid #54A8D2;
-    border-radius: 8px;
-    width: 60%;
-    max-width: 500px;
-    text-align: center;
-    position: relative;
-}
-
-.modalContenidoExito h2 {
-    margin-bottom: 20px;
-    font-family: tittles;
-    color: #000;
-}
-
-#btnRegresar {
-    background-color: #54A8D2;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-
-#btnRegresar:hover {
-    background-color: #60C1F2;
-}
 
 footer {
     background: #333;
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 2vh;
+    margin-top: 40vh;
+    font-size: 1vw;
 }

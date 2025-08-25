@@ -18,66 +18,50 @@ body {
     background-color: #EDEDED;
 }
 
-header {
-    background-color: #54A8D2;
+/*Inicio estilo header*/
+header{
     display: flex;
-    align-items: center;
-    height: 80px;
-    padding: 5px 10%;
+    flex-direction: row;
+    background-color: #54A8D2;
+    gap: 3vw;
+    padding: 0vw 2vw;
     justify-content: space-between;
 }
-
-.logo {
-    height: 75px;
-    width: auto;
-    cursor: pointer;
-    transition: all 0.3s;
+.logo{
+    width: 15vw;
+    height: 3vw;
+    margin-top: 0.5vw;
 }
-
-.profile {
-    height: 60px;
-    width: auto;
-    transition: all 0.3s;
-    margin: 15px;
+.barra{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2vw;
+    margin: 1vw 0;
 }
-
-header a {
-    font-weight: 700;
+.barra a{
+    font-size: 1.5vw;
     text-decoration: none;
-    display: inline-block;
-    padding: 0 40px;
-    transition: all 0.2s;
+    color: black;  
+    text-wrap: nowrap;  
 }
-
-nav a:hover{
-    transform: scale(1.2);
-}
-
-.perfil {
+.perfil{
     display: flex;
     flex-direction: row;
-    text-align: center;
     flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    gap: 2vw;
 }
-
-nav {
-    text-align: justify;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
+.nombreUser{
+    font-size: 1vw;
+    text-wrap: nowrap;
+    margin-top: 1.5vw;
 }
-
-
-nav a {
-    color: black;
-    font-size: 1.2rem;
+.profile{
+    width: 3vw;
+    height: 3vw;
+    margin: auto;
 }
+/*Fin estilo header*/
 
 .contenido {
     max-width: 80vw;
