@@ -13,7 +13,7 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 
 <br>
 <br>
-<br>
+
 - Gestión de cursos.
 <br>
 <br>
@@ -28,7 +28,7 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 
 <br>
 <br>
-<br>
+
 - Creación y gestión de cursos.
 <br>
 <br>
@@ -43,7 +43,7 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 
 <br>
 <br>
-<br>
+
 - Inscripción y exploración de cursos.
 <br>
 <br>
