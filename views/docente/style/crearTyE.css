@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e8e8;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.tituloc h1 {
+    color: #4a9eff;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    margin: 0 10vw;
+}
+
+.return {
+    margin-bottom: 30px;
+    margin: 8vw 0 2vw 10vw;
+}
+
+.return a {
+    color: #333;
+    text-decoration: none;
+    font-size: 2vw;
+
+}
+.return a:hover {
+    text-decoration: underline;
+}
+
+.nuevaTyE {
+    background-color: #d0d0d0;
+    border-radius: 80px;
+    padding: 4vw;
+    width: 80vw;
+    margin: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 70vw;
+}
+
+.tye {
+    flex-basis: 30vw;
+    grid-column: 1;
+}
+
+.fecha {
+    flex-basis: 30vw;
+    grid-column: 2;
+}
+
+.descrip {
+    width: 70vw;
+    grid-column: 1/2;
+    grid-row: 2;
+}
+
+.nombre{
+    margin-bottom: 1vw;
+    font-size: 3vw;
+    font-weight: lighter;
+}
+.tye input[type="text"] {
+    width: 80%;
+    height: 20%;
+    padding: 12px;
+    border: none;
+    border-radius: 2vw;
+    background-color: white;
+    font-size: 14px;
+    outline: none;
+}
+.fecha input[type="text"] {
+    width: 80%;
+    height: 20%;
+    padding: 12px;
+    border: none;
+    border-radius: 2vw;
+    background-color: white;
+    font-size: 14px;
+    outline: none;
+}
+
+.descrip textarea {
+    width: 100%;
+    height: 30vw;
+    padding: 3vw;
+    border: none;
+    border-radius: 40px;
+    background-color: white;
+    font-size: 1.5vw;
+    font-family: Arial, sans-serif;
+    resize: vertical;
+    margin-top: 2vw;
+}
+
+.descrip label {
+    color: #333;
+    font-size: 3vw;
+}
+.nuevaTyE {
+    margin-bottom: 50px;
+}
+
+.nuevaTyE button {
+    background-color: #5bb3f0;
+    color: rgb(0, 0, 0);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 40px;
+    font-size: 2vw;
+    text-align: center;
+    width: fit-content;
+    margin-left: 40%;
+}
