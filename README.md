@@ -78,7 +78,6 @@ El proyecto está desarrollado en HTML, CSS y JavaScript puro, con un enfoque mo
 1. Abrir la carpeta del proyecto en tu editor o IDE preferido.
 
 2. Ejecutar el archivo index.html directamente en el navegador
-
 O usar un servidor local para una mejor experiencia (ejemplo: extensión Live Server en VSCode).
 
 # **Estructura del proyecto** #
