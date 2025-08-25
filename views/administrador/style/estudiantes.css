@@ -140,18 +140,29 @@ nav a:hover{
   height: 20px;
 }
 
-.btn-add {
+.botonAñadir{
+  display: flex;
+  justify-content: center;
+}
+
+.botonAñadir button{
+  
+  position: relative;
   margin-top: 1.5rem;
-  background: #54A8D2;
-  color: white;
+  background-color: #54A8D2;
+  color: rgb(0, 0, 0);
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn-add:hover {
+.botonAñadir :hover {
+  position: relative;
   background: #3b8cb3;
+  
 }
 
 
