@@ -24,84 +24,96 @@
         </div>
     </header>
 
-
     <div class="contenido">
-        <article class="estadisticasPrincipales">
-            <h1 class="tituloPrincipal">INICIO</h1>
-            <div class="cuadros">
-                <div class="card">
-                    <h3>Cursos Inscritos</h3>
-                    <p>2</p>
+
+        <div class="porcentajes">
+            <article class="estadisticasPrincipales">
+                <h1 class="tituloPrincipal">INICIO</h1>
+                <div class="cuadros">
+                    <div class="card">
+                        <h3>Cursos Inscritos</h3>
+                        <p>2</p>
+                    </div>
+                    <div class="card">
+                        <h3>Trabajos Pendientes</h3>
+                        <p>2</p>
+                    </div>
+                    <div class="card">
+                        <h3>Nota Global</h3>
+                        <p>62</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Trabajos Pendientes</h3>
-                    <p>2</p>
-                </div>
-                <div class="card">
-                    <h3>Nota Global</h3>
-                    <p>62</p>
-                </div>
-            </div>
-        </article>
-        <article class="divCursos">
-            <div class="tituloCurso">
-                <h1>Mis Cursos</h1>
-                <a href="./curso.html">Explorar Cursos</a>
-            </div>
+            </article>
+        </div>
+
+        <div class="exploCurso">
+            <a href="./curso.html">Explorar Cursos</a>
+        </div>
+        
+        <div class="cursos">
+            <h1>Mis Cursos</h1>
             <div class="cuadrosCursos">
                 <div class="cardCursos">
                     <div class="cuadrito">
+                        <img src="./media/image.png" alt="img.png">
                         <h4>Desarrollo de Apps</h4>
                         <p>Dr. Juanito</p>
                         <hr />
-                        <p class="progreso">50% Progreso</p>
+                        <h5 class="progreso">50% Progreso</h5>
                         <a href="./explorarCurso.html">Explorar Curso</a>
                     </div>
                 </div>
                 <div class="cardCursos">
                     <div class="cuadrito">
-                        <h4>Desarrollo de Apps</h4>
-                        <p>Dr. Juanito</p>
-                        <hr />
-                        <p class="progreso">50% Progreso</p>
-                        <a href="./explorarCurso.html">Explorar Curso</a>
+                        <img src="./media/image.png" alt="img.png">
+                        <div class="inside">
+                            <h4>Desarrollo de Apps</h4>
+                            <p>Dr. Juanito</p>
+                            <hr />
+                            <h5 class="progreso">50% Progreso</h5>
+                            <a href="./explorarCurso.html">Explorar Curso</a>
+                        </div>
                     </div>
                 </div>
                 <div class="cardCursos">
                     <div class="cuadrito">
+                        <img src="./media/image.png" alt="img.png">
                         <h4>Desarrollo de Apps</h4>
                         <p>Dr. Juanito</p>
                         <hr />
-                        <p class="progreso">50% Progreso</p>
+                        <h5 class="progreso">50% Progreso</h5>
                         <a href="./explorarCurso.html">Explorar Curso</a>
                     </div>
                 </div>
             </div>
-        </article>
-        <article class="Notificaciones">
+        </div>
+
+        <div class="Notificaciones">
             <h1>Mensajes Docentes</h1>
             <h4>Notificaciones Recientes</h4>
             <div class="Mensajes">
                 <div class="msg">
-                    <p>Terminar Trabajo propuesto del dia de ayer</p>
+                    <p class="tarea">Terminar Trabajo propuesto del dia de ayer</p>
                     <p class="tmp">hace 2 horas</p>
                 </div>
                 <div class="msg">
-                    <p>Terminar Trabajo propuesto del dia de ayer</p>
+                    <p class="tarea">Terminar Trabajo propuesto del dia de ayer</p>
                     <p class="tmp">hace 2 horas</p>
                 </div>
                 <div class="msg">
-                    <p>Terminar Trabajo propuesto del dia de ayer</p>
+                    <p class="tarea">Terminar Trabajo propuesto del dia de ayer</p>
                     <p class="tmp">hace 2 horas</p>
                 </div>
                 <div class="msg">
-                    <p>Terminar Trabajo propuesto del dia de ayer y mensaje</p>
+                    <p class="tarea">Terminar Trabajo propuesto del dia de ayer y mensaje</p>
                     <p class="tmp">hace 2 horas</p>
                 </div>
             </div>
             <a href="">Enviar mensaje a docente</a>
-        </article>
+        </div>
+
     </div>
+
     <div id="modalMensajeDocente" class="modal">
         <div class="modalContenido">
             <span class="cerrarModal">&times;</span>
@@ -110,12 +122,14 @@
             <button id="btnEnviarMensaje">Enviar a docente</button>
         </div>
     </div>
+
     <div id="modalExito" class="modalExito">
         <div class="modalContenidoExito">
             <h2>ENVIADO EXITOSAMENTE</h2>
             <button id="btnRegresar">Regresar</button>
         </div>
     </div>
+
     <footer>
         <p>&copy; 2025 Maria Gomez, Johan Monsalve y Stiven Martinez. Todos los derechos reservados.</p>
     </footer>
