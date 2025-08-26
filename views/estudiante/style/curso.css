@@ -67,6 +67,7 @@ header{
     max-width: 80vw;
     margin: 2vh auto;
     padding: 0 2vw;
+    height: 100vh;
 }
 
 h1 {
@@ -96,6 +97,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    max-width: 1000px;
 }
 
 .divCursos .cardCursos {
@@ -109,6 +111,7 @@ h1 {
     align-content: center;
     flex-wrap: nowrap;
     height: 350px;
+    max-width: 300px;
 }
 
 .divCursos .cardCursos .cuadrito{
@@ -169,5 +172,4 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 40vh;
 }
