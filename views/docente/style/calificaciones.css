@@ -57,10 +57,10 @@ header{
 /*Fin estilo header*/
 
 .principal {
-    max-width: 1200px;
+    max-width: 2000px;
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 300px;
+    height: 100vh;
 }
 
 .top {
@@ -144,5 +144,4 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 2vh;
 }

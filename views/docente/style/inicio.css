@@ -14,6 +14,9 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #EDEDED;
+}
 /*Inicio estilo header*/
 header{
     display: flex;
@@ -72,10 +75,13 @@ header{
     font-size: 2.5vw;
 }
 .cuadros{
-    justify-content: space-around;
+    justify-content: flex-start;
     display: flex;
     flex-wrap: nowrap;
-    margin-right: 25vw;
+    margin-top: 25px;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
 }
 .card{
     width: 20vw;
@@ -83,6 +89,7 @@ header{
     background-color: white;
     padding: 0.5vw;
     border-radius: 5px;
+    border: 2px solid black;
 }
 .card h3{
     font-size: 2vw;
@@ -130,6 +137,7 @@ header{
     background: white;
     border-radius: 16px;
     overflow: hidden;
+    border: 2px solid black;
 }
 
 .cuadrito {
@@ -221,7 +229,7 @@ header{
     display: flex;
     justify-content: space-between;
     background: #c5c5c5a9;
-    padding: 1rem;
+    padding: 2%;
     border-radius: 12px;
     flex-wrap: wrap;
 }
@@ -246,7 +254,6 @@ header{
     padding: 1rem 2rem;
     text-align: center;
     width: 100%;
-    max-width: 300px;
     margin: 0 auto;
     display: block;
     font-size: 2vw;
@@ -358,11 +365,6 @@ header{
     grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
 }
 
-.msg {
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
 .msg p {
     min-width: auto;
 }
@@ -377,6 +379,5 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 40vh;
     font-size: 1vw;
 }

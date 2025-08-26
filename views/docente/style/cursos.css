@@ -61,39 +61,13 @@ header{
     height: 3vw;
     margin: auto;
 }
-
 /*Fin estilo header*/
-
-.perfil {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-nav {
-    text-align: justify;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-direction: row;
-}
-
-
-nav a {
-    color: black;
-    font-size: 1.2rem;
-}
 
 .contenido {
     max-width: 80vw;
     margin: 2vh auto;
     padding: 0 2vw;
+    height: 100vh;
 }
 
 h1 {
@@ -123,6 +97,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    max-width: 1000px;
 }
 
 .divCursos .cardCursos {
@@ -136,6 +111,7 @@ h1 {
     align-content: center;
     flex-wrap: nowrap;
     height: 350px;
+    max-width: 300px;
 }
 
 .divCursos .cardCursos .cuadrito{
@@ -196,5 +172,4 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 40vh;
 }

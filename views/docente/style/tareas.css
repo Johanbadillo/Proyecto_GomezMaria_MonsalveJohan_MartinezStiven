@@ -56,9 +56,9 @@ header{
 
 .mitad {
     max-width: 1000px;
-    margin: 2vh auto;
+    margin: 0 auto;
     padding: 0 2vw;
-    margin-bottom: 40vh;
+    height: 100vh;
 }
 
 .titulo1{
@@ -242,5 +242,4 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 2vh;
 }
