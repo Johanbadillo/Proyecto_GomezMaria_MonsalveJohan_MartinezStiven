@@ -5,17 +5,13 @@
 
 @font-face {
     font-family: numeros;
-    src: url(./../Fonts/digital-7/digital-7.ttf);
+    src: url(../../../Fonts/digital-7.ttf);
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-body {
-    background-color: #EDEDED;
 }
 
 /*Inicio estilo header*/
@@ -61,287 +57,326 @@ header{
     height: 3vw;
     margin: auto;
 }
-
 /*Fin estilo header*/
 
 
-.contenido {
-    max-width: 80vw;
-    margin: 2vh auto;
-    padding: 0 2vw;
+.contenido{
+    margin: 5vw 15vw;
 }
-
-h1 {
-    font-size: 2.5rem;
-    margin-top: 50px;
-    margin-bottom: 40px;
+.porcentaje{
+    background-color: rgb(0, 255, 21);
+    margin: 5vw 15vw;
 }
-
-.estadisticasPrincipales .cuadros {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.estadisticasPrincipales .cuadros .card {
-    background: white;
-    padding: 20px;
-    text-align: left;
-    border-radius: 8px;
-    max-height: 160px;
-    height: 12vi;
+.tituloPrincipal{
     font-family: tittles;
-    font-size: 1.6rem;
-    font-weight: lighter;
+    font-size: 2.5vw;
+}
+.cuadros{
+    justify-content: space-around;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     flex-wrap: nowrap;
+    margin-right: 25vw;
 }
-
-.tituloCurso {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+.card{
+    width: 20vw;
+    font-size: 1.5vw;
+    background-color: white;
+    padding: 0.5vw;
+    border-radius: 5px;
 }
-
-.tituloCurso a {
-    display: block;
-    background: #60C1F2;
-    color: #000000;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 1.2rem;
+.card h3{
+    font-size: 2vw;
+    text-wrap: nowrap;
 }
-
-.estadisticasPrincipales .cuadros .card p {
+.card p{
     font-family: numeros;
-    font-size: 5rem;
+    font-size: 4vw;
 }
-
-.divCursos .cuadrosCursos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+.exploCurso{
+    text-align: right;
+    margin-top: 3vw;
+    padding: 1vw 2vw;
 }
-
-.divCursos .cardCursos {
-    background: url(./../media/images.jpeg)0% 0% no-repeat;
-    background-size: cover;
-    border-radius: 16px;
+.exploCurso a{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-content: center;
-    flex-wrap: nowrap;
-    height: 350px;
-}
-
-.divCursos .cardCursos .cuadrito {
-    height: 65%;
-    background: white;
-    width: 100%;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    align-content: center;
-    flex-wrap: nowrap;
-    padding: 20px;
-    justify-content: center;
-}
-
-.divCursos .cardCursos .cuadrito h4 {
-    font-size: 1.5rem;
-    font-family: sans-serif;
-}
-
-.divCursos .cardCursos .cuadrito p {
-    font-size: 1.2rem;
-    font-family: sans-serif;
-    margin: 2%;
-}
-
-.divCursos .cardCursos .cuadrito .progreso {
-    color: #239400;
-}
-
-.divCursos .cardCursos .cuadrito a {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10%;
-}
-
-hr {
-    width: 100%;
-}
-
-.cardCursos img {
-    width: 100%;
-    height: auto;
-}
-
-.cardCursos a {
-    display: block;
-    background: #60C1F2;
-    color: #000000;
-    padding: 10px;
+    background-color: #54A8D2;
+    width: 15vw;
+    padding: 0.5vw 2vw;
+    border-radius: 1vw;
     text-decoration: none;
-    border-radius: 4px;
+    color: black;
+    font-size: 2vw;
+}
+.cursos {
+    margin-bottom: 3rem;
+}
+
+.cursos h1 {
+    font-size: 3vw;
+    color: #2d3748;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuadrosCursos {
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 2rem;
+}
+
+.cardCursos {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.cuadrito {
+    width: 30vw;
+    overflow: hidden;
+}
+
+.cuadrito img {
+    width: 30vw;
+    height: 20vw;
+    object-fit: cover;
+    display: block;
+}
+
+.cuadrito h4 {
+    font-size: 2vw;
+    font-weight: 600;
+    color: #2d3748;
+    margin: 1rem 1rem 0.5rem;
+}
+
+.cuadrito p {
+    color: #718096;
+    margin: 0 1rem 0.5rem;
+    font-size: 1.5vw;
+}
+
+.cuadrito hr {
+    border: none;
+    height: 1px;
+    background: #222222;
+    margin: 1rem;
+}
+
+.cuadrito h5 {
+    color: #ffffff;
+    margin: 0.5rem 1rem ;
+    font-size: 1.5vw;
+}
+
+.cuadrito a {
+    display: block;
+    background: #54A8D2;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    width: 15vw;
+    padding: 1vw 0 1vw 0;
+    margin: 4vw;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2vw;
+}
+
+
+
+.Notificaciones {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Notificaciones h1 {
-    margin: 0;
-    margin-top: 50px;
+    font-size: 3vw;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 1rem;
 }
 
 .Notificaciones h4 {
-    margin-top: 20px;
-    margin-bottom: 15px;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 1.5rem;
 }
 
-.Notificaciones .Mensajes {
+
+
+
+
+.Mensajes {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 
-.Notificaciones .msg {
+.msg {
     display: flex;
     justify-content: space-between;
-    background: #D9D9D9;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
+    background: #c5c5c5a9;
+    padding: 1rem;
+    border-radius: 12px;
+    flex-wrap: wrap;
 }
 
-.Notificaciones .tmp {
-    color: gray;
+.tarea {
+    margin: 0.1vw 0;
+    color: #2d3748;
+    font-size: 2vw;
+    flex: 1;
+    min-width: 200px;
 }
 
-.Notificaciones a {
+.tmp {
+    color: #a0aec0;
+    font-size: 2vw;
+}
+
+.Notificaciones > a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 2rem;
-    color: #000000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-
+    padding: 1rem 2rem;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+    font-size: 2vw;
 }
+
 
 .modal {
     display: none;
     position: fixed;
-    top: 0;
+    z-index: 1000;
     left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
 }
-
-.modalContenido {
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    border: 2px solid #54A8D2;
-    border-radius: 8px;
-    width: 60%;
-    max-width: 500px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cerrarModal {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.modalContenido h2 {
-    margin-bottom: 20px;
-    font-family: tittles;
-}
-
-#textoMensaje {
-    width: 90%;
-    height: 150px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-}
-
-#btnEnviarMensaje {
-    background-color: #60C1F2;
-    color: black;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1.2rem;
-}
-
-#btnEnviarMensaje:hover {
-    background-color: #54A8D2;
-}
-
 .modalExito {
     display: none;
     position: fixed;
-    top: 0;
+    z-index: 1000;
     left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
+    background: rgba(0, 0, 0, 0.6);
 }
 
-.modalContenidoExito {
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    border: 2px solid #54A8D2;
-    border-radius: 8px;
-    width: 60%;
+.modalContenido, .modalContenidoExito {
+    background: white;
+    margin: 5% auto;
+    padding: 2rem;
+    border-radius: 16px;
+    width: 90%;
     max-width: 500px;
-    text-align: center;
-    position: relative;
 }
 
-.modalContenidoExito h2 {
-    margin-bottom: 20px;
-    font-family: tittles;
-    color: #000;
+@keyframes modalSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-#btnRegresar {
-    background-color: #54A8D2;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
+.cerrarModal {
+    color: #a0aec0;
+    float: right;
+    font-size: 2rem;
+    font-weight: bold;
     cursor: pointer;
-    font-size: 1.2rem;
+    transition: color 0.3s ease;
 }
 
-#btnRegresar:hover {
-    background-color: #60C1F2;
+.cerrarModal:hover {
+    color: #2d3748;
 }
+
+.modalContenido h2, .modalContenidoExito h2 {
+    color: #2d3748;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#textoMensaje {
+    width: 100%;
+    min-height: 120px;
+    padding: 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    resize: vertical;
+    margin-bottom: 1.5rem;
+    transition: border-color 0.3s ease;
+}
+
+#textoMensaje:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+}
+
+#btnEnviarMensaje, #btnRegresar {
+    background: #3182ce;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+#btnEnviarMensaje:hover, #btnRegresar:hover {
+    background: #3182ce;
+    transform: translateY(-2px);
+}
+
+
+
+.cuadrosCursos {
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+}
+
+.msg {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.msg p {
+    min-width: auto;
+}
+
+.tmp {
+    align-self: flex-end;
+}
+
 
 footer {
     background: #333;
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 2vh;
+    margin-top: 40vh;
+    font-size: 1vw;
 }
