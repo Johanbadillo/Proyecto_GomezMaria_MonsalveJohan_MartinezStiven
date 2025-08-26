@@ -55,9 +55,8 @@ function mostrarPerfil(){
             </div>
             <div class="indice_content2">
                 <div class="i2">
-                    <a href="#" onclick="irAPerfil('estudiante')"><button  class="button3" >Mi Perfil</button></a>
-                    <a href="#"><button class="button3">Configuraciones</button></a>
-                    <a href="#" onclick="irAInicio()"><button class="button3">Cerrar Sesion</button></a>
+                    <a href="./../" onclick="irAPerfil('estudiante')"><button  class="button3" >Mi Perfil</button></a>
+                    <a href="./../../index.html" onclick="irAInicio()"><button class="button3">Cerrar Sesion</button></a>
                 </div>
             </div>
         </div>
@@ -73,9 +72,6 @@ function cerrarModal1() {
     modal.innerHTML = '';
 }
 
-
-
-// Cerrar modal del perfil 
 window.onclick = function(event) {
     const modal = document.querySelector('.modal_general');
     if (event.target === modal) {
@@ -93,5 +89,3 @@ function inicioH( pagina = 'inicio'){
         window.location.href =  './inicio.html'
     }
 }
-
-   

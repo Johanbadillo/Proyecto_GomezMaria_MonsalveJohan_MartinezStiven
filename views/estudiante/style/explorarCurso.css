@@ -57,7 +57,7 @@ header{
 /*Fin estilo header*/
 
 .cursoC {
-    max-width: 1200px;
+    max-width: 2500px;
     margin: 0 auto;
     border-radius: 16px;
     background-color: #EDEDED;
@@ -129,9 +129,12 @@ header{
 }
 .variosM{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-top: 2vw;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    /* margin-top: 2vw; */
+    align-items: center;
+    align-content: center;
+    gap: 40px;
 }
 
 .modulo {
@@ -212,5 +215,5 @@ footer {
     color: white;
     text-align: center;
     padding: 1.5vh;
-    margin-top: 40vh;
+    margin-top: 4vh;
 }
