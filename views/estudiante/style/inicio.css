@@ -13,6 +13,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #EDEDED;
+}
+
 /*Inicio estilo header*/
 header{
     display: flex;

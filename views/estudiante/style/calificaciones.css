@@ -5,11 +5,8 @@
 }
 
 body {
-    background-color: #e8e8e8;
-    font-family: Arial, sans-serif;
-    min-height: 100vh;
+    background-color: #EDEDED;
 }
-
 /*Inicio estilo header*/
 header{
     display: flex;
