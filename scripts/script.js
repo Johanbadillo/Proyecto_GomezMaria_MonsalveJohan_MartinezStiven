@@ -41,6 +41,7 @@ async function inicio() {
 }
 
 
+
 function mostrarPerfil(){
     const modal = document.querySelector('.modal_general');
 
@@ -74,10 +75,23 @@ function cerrarModal1() {
 
 
 
-// Cerrar modal
+// Cerrar modal del perfil 
 window.onclick = function(event) {
     const modal = document.querySelector('.modal_general');
     if (event.target === modal) {
         cerrarModal1();
     }
 }
+
+
+function inicioH( pagina = 'inicio'){
+    if(pagina === 'estudiante'){
+        window.location.href = './inicio.html'
+    }else if(pagina === 'docente'){
+        window.location.href = './inicio.html'
+    }else if(pagina === 'administrador'){
+        window.location.href =  './inicio.html'
+    }
+}
+
+   
