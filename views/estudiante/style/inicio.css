@@ -77,10 +77,12 @@ header{
 }
 .card{
     width: 20vw;
+    height: 8vw;
     font-size: 1.5vw;
     background-color: white;
     padding: 0.5vw;
     border-radius: 5px;
+    border: 2px solid black;
 }
 .card h3{
     font-size: 2vw;
@@ -89,6 +91,7 @@ header{
 .card p{
     font-family: numeros;
     font-size: 4vw;
+    
 }
 .exploCurso{
     text-align: right;
@@ -128,6 +131,7 @@ header{
     background: white;
     border-radius: 16px;
     overflow: hidden;
+    border: 2px solid black;
 }
 
 .cuadrito {
@@ -378,4 +382,112 @@ footer {
     padding: 1.5vh;
     margin-top: 40vh;
     font-size: 1vw;
+}
+
+
+
+
+/*/Perfil sobrepuesto/*/
+.modal_general {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal_general img {
+    width: 30px;
+    height: 40px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.modal_general.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.cerrar_modal {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+    padding-right: 1vw;
+}
+
+.modal_header {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.indice_header {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.indice_header p {
+    flex-grow: 1;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    color: #000;
+}
+
+.perfil2 {
+    position: fixed;
+    top: 82px;
+    right: 0;
+    width: 260px;
+    height: 260px;
+    background: white;
+    transition: left 0.5s ease;
+    box-shadow: 2px 0 20px black;
+    z-index: 1000;
+}
+
+.i2 {
+    padding: 0 1vw;
+}
+
+.i2 a {
+    text-decoration: none;
+}
+
+.button3 {
+    color:#ffffff;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    display: block;
+    margin: 1vw;
+    justify-self: center;
+    cursor: pointer;
+}
+
+.button3:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
