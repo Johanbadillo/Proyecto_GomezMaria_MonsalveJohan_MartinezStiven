@@ -32,3 +32,84 @@ body{
 .linea{
     color: white;
 }
+
+/*Circulo numero 1*/
+.circulo1 {
+    display: flex;
+    position: relative;
+    fill: none;
+    stroke: red;
+    stroke-width: 0.5vw;
+    stroke-dasharray: 124;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+
+}
+
+.porcentaje {
+    position: relative;
+    left: 4rem;
+}
+
+@keyframes rellenar {
+    to {
+        stroke-dashoffset: 100;
+    }
+}
+
+/*Circulo numero 2*/
+
+.circulo2 {
+    display: flex;
+    position: relative;
+    fill: none;
+    stroke: rgb(0, 255, 42);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 124;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+
+}
+
+.porcentajeC2 {
+    position: relative;
+    left: 3rem;
+    bottom: 2vh;
+}
+
+@keyframes rellenar {
+    to {
+        stroke-dashoffset: 100;
+        /* 440 - (440 * 0.8) para 80% */
+    }
+}
+
+
+/*Circulo numero 3*/
+
+.circulo3 {
+    display: flex;
+    position: relative;
+    fill: none;
+    stroke: rgb(96, 5, 241);
+    stroke-width: 0.5vw;
+    stroke-dasharray: 124;
+    stroke-dashoffset: 200;
+    stroke-linecap: round;
+    animation: rellenar 1.5s ease-in-out forwards;
+
+}
+
+.porcentajeC3 {
+    position: relative;
+    left: 4rem;
+}
+
+@keyframes rellenar {
+    to {
+        stroke-dashoffset: 100;
+        /* 440 - (440 * 0.8) para 80% */
+    }
+}
