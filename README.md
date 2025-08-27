@@ -55,6 +55,10 @@ Documentación completa del proyecto (README.md).
 La estructura y diseño están inspirados en la siguiente plataforma:
 https://astounding-clafoutis-196412.netlify.app/
 
+### Video Guia Y Explicacion del funcionamiento y requerimientos de la pagina
+La explicacion visual y auditiva para el entendimiento y el proposito de la plataforma sacada:
+https://drive.google.com/file/d/1HTwVfXn8cZy2b5g7pQhFbdyZ66d_mpoI/view
+
 
 ## Autores
 
