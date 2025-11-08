@@ -59,3 +59,79 @@ graph LR
     A --> JavaScript
     B[Backend Simulado] --> mockAPI
     C[Diseño] --> Figma
+```
+
+## Instalación y Uso
+
+Sigue estos pasos para ejecutar el proyecto localmente:
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/Johanbadillo/Proyecto_GomezMaria_MonsalveJohan_MartinezStiven.git
+
+# 2. Entrar al directorio del proyecto
+cd Proyecto_GomezMaria_MonsalveJohan_MartinezStiven
+
+# 3. Abrir en el navegador
+open index.html
+```
+
+## Estructura del proyecto
+```
+Proyecto_LMS/
+├── Fonts/
+├── Media/
+├── scripts/
+│   └── scripts.js
+├── styles/
+│   └── style.css
+├── views/
+│   ├── administrador/
+│   ├── docente/
+│   └── estudiante/
+├── index.html
+└── README.md
+```
+
+## Entregables
+
+| Entregable | Descripción | Enlace |
+|------------|-----------|--------|
+| **Código Fuente** | Repositorio completo con frontend, JSON Server y documentación | [GitHub](https://github.com/Johanbadillo/Proyecto_GomezMaria_MonsalveJohan_MartinezStiven) |
+| **Base de Datos** | Pagina Web utilizada mockAPI | [Ver json](https://689e120e3fed484cf8763a5c.mockapi.io/Usuarios) |
+| **Diseño UI/UX** | Prototipo interactivo en Figma | [Ver en Figma](https://www.figma.com/design/HALBEZaxyDU42m8COFGwzG/LMS-PORTAL?node-id=0-1) |
+| **Documentación** | `README.md` completo y profesional | Este archivo |
+| **Demo en Vivo** | Plataforma funcional desplegada | [Ver Demo](https://johanbadillo.github.io/Proyecto_GomezMaria_MonsalveJohan_MartinezStiven/) |
+| **Video Explicativo** | Guía visual y auditiva del sistema | [Ver en Drive](https://drive.google.com/file/d/1HTwVfXn8cZy2b5g7pQhFbdyZ66d_mpoI/view) |
+
+---
+
+## Plataforma de Referencia
+
+La estructura, diseño y flujo de usuario están **inspirados en**:
+
+[https://astounding-clafoutis-196412.netlify.app/](https://astounding-clafoutis-196412.netlify.app/)  
+*(Ejemplo de LMS moderno y responsivo)*
+
+---
+
+## Autores
+
+<div align="center">
+
+| Nombre | Rol | GitHub |
+|--------|-----|--------|
+| **Johan Badillo** | Full Stack & Backend | [@Johanbadillo](https://github.com/Johanbadillo) |
+| **Stiven Martínez** | Frontend & UX/UI | [@stiven-martinez](https://github.com/STIVENMARTINEZVILLAMIZAR) |
+| **María Gómez** | Diseño & Documentación | [@maria-gomez](https://github.com/gamaz-19) |
+
+</div>
+
+---
+
+<div align="center">
+
+**Hecho con pasión por la educación digital**  
+**CampusLands • Cajasan • 2025**
+
+</div>
